@@ -1,0 +1,56 @@
+[    0.0s] START full-tier rate refinement, 9 zeros x levels 7..11
+[    0.2s] S036   m= 7 d_u=1.6573e-02 tag=grid_0_1 (0.17s)
+[    0.5s] S036   m= 8 d_u=1.8205e-02 tag=grid_-1_1 (0.37s)
+[    1.6s] S036   m= 9 d_u=3.7026e-02 tag=direct (1.02s)
+[    2.8s] S036   m=10 d_u=2.2458e-02 tag=grid_-1_1 (1.20s)
+[    5.0s] S036   m=11 d_u=2.2889e-02 tag=grid_-1_1 (2.27s)
+[    5.0s] S036 done, wrote rate_full.json
+[    5.2s] S104   m= 7 d_u=1.6695e-03 tag=direct (0.12s)
+[    5.9s] S104   m= 8 d_u=2.6860e-02 tag=grid_-1_0 (0.79s)
+[    7.5s] S104   m= 9 d_u=3.9401e-02 tag=grid_-1_1 (1.55s)
+[    9.4s] S104   m=10 d_u=1.9492e-02 tag=direct (1.85s)
+[   11.0s] S104   m=11 d_u=4.8778e-04 tag=direct (1.60s)
+[   11.0s] S104 done, wrote rate_full.json
+[   11.1s] S187   m= 7 d_u=2.8028e-03 tag=direct (0.16s)
+[   11.6s] S187   m= 8 d_u=7.9752e-02 tag=grid_-1_1 (0.48s)
+[   13.1s] S187   m= 9 d_u=4.9728e-01 tag=grid_-1_-1 (1.49s)
+[   15.8s] S187   m=10 d_u=4.7038e-02 tag=grid_-1_1 (2.69s)
+[   18.4s] S187   m=11 d_u=1.3764e-04 tag=direct (2.62s)
+[   18.4s] S187 done, wrote rate_full.json
+[   18.6s] S339   m= 7 d_u=5.2767e-02 tag=grid_0_1 (0.18s)
+[   19.0s] S339   m= 8 d_u=7.4719e-02 tag=grid_1_1 (0.43s)
+[   20.5s] S339   m= 9 d_u=7.5983e-02 tag=grid_-1_-1 (1.49s)
+[   23.1s] S339   m=10 d_u=7.0028e-02 tag=grid_0_-1 (2.62s)
+[   24.4s] S339   m=11 d_u=1.4619e-04 tag=direct (1.27s)
+[   24.4s] S339 done, wrote rate_full.json
+[   24.6s] S031   m= 7 d_u=5.6850e-04 tag=direct (0.17s)
+[   24.9s] S031   m= 8 d_u=1.4179e-03 tag=direct (0.30s)
+[   25.7s] S031   m= 9 d_u=3.7439e-02 tag=direct (0.80s)
+[   26.5s] S031   m=10 d_u=7.9583e-04 tag=direct (0.81s)
+[   27.8s] S031   m=11 d_u=2.9848e-04 tag=direct (1.27s)
+[   27.8s] S031 done, wrote rate_full.json
+[   28.1s] S070   m= 7 d_u=1.2555e+00 tag=grid_-1_-1 (0.34s)
+[   28.7s] S070   m= 8 d_u=2.7661e-01 tag=direct (0.59s)
+[   30.1s] S070   m= 9 d_u=3.5247e-01 tag=grid_-1_-1 (1.42s)
+[   30.8s] S070   m=10 d_u=6.6192e-04 tag=direct (0.70s)
+[   32.1s] S070   m=11 d_u=3.5887e-04 tag=direct (1.25s)
+[   32.1s] S070 done, wrote rate_full.json
+[   32.3s] S235   m= 7 d_u=2.9603e-02 tag=direct (0.24s)
+[   32.7s] S235   m= 8 d_u=5.8732e+00 tag=direct (0.40s)
+[   35.7s] S235   m= 9 d_u=1.5638e-01 tag=grid_0_1 (3.01s)
+[   36.6s] S235   m=10 d_u=1.7372e-03 tag=direct (0.88s)
+[   37.9s] S235   m=11 d_u=6.4542e-04 tag=direct (1.26s)
+[   37.9s] S235 done, wrote rate_full.json
+[   38.0s] S279   m= 7 d_u=7.7547e-05 tag=direct (0.08s)
+[   38.2s] S279   m= 8 d_u=8.4119e-04 tag=direct (0.20s)
+[   39.0s] S279   m= 9 d_u=6.6626e-02 tag=grid_-1_-1 (0.85s)
+[   39.7s] S279   m=10 d_u=7.0894e-04 tag=direct (0.73s)
+[   41.0s] S279   m=11 d_u=2.8708e-04 tag=direct (1.26s)
+[   41.0s] S279 done, wrote rate_full.json
+[   41.1s] S319   m= 7 d_u=1.2920e-02 tag=direct (0.10s)
+[   41.4s] S319   m= 8 d_u=2.2810e-02 tag=direct (0.32s)
+[   42.2s] S319   m= 9 d_u=7.3405e-02 tag=direct (0.74s)
+[   43.0s] S319   m=10 d_u=1.3019e-03 tag=direct (0.88s)
+[   44.5s] S319   m=11 d_u=4.4170e-04 tag=direct (1.43s)
+[   44.5s] S319 done, wrote rate_full.json
+[   44.5s] DONE rate_refine, total 44.5s

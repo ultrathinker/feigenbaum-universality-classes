@@ -1,0 +1,3213 @@
+{
+  "meta": {
+    "date": "2026-08-16 02:31:18",
+    "step24_shift": [
+      0.005733174553776037,
+      0.03337017434291594
+    ],
+    "step24_step": 0.041666666666666664
+  },
+  "n": 187,
+  "classification_counts": {
+    "missed_not_local_min": 161,
+    "missed_invalid_node": 24,
+    "missed_converged_elsewhere": 2
+  },
+  "zeros": [
+    {
+      "orig_idx": 5,
+      "re": -0.8122707196571957,
+      "im": 5.062573154070529,
+      "abs_u": 5.127321977633943,
+      "absH_stored": 4.5719589964391666e-42,
+      "nearest_step24_dist": 1.115743779336914,
+      "nearest_node": {
+        "re": -0.8276001587795572,
+        "im": 5.075036841009582
+      },
+      "node_dist_from_zero": 0.019756902488014136,
+      "node_valid": true,
+      "node_Habs": 0.27959836990926284,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 6,
+      "re": -0.9416319923396599,
+      "im": 7.250513958197318,
+      "abs_u": 7.311403659148611,
+      "absH_stored": 4.6438266144803826e-42,
+      "nearest_step24_dist": 0.4396684739601091,
+      "nearest_node": {
+        "re": -0.9526001587795572,
+        "im": 7.241703507676249
+      },
+      "node_dist_from_zero": 0.014068571833611683,
+      "node_valid": true,
+      "node_Habs": 0.5548329000207655,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 9,
+      "re": 7.741225107806042,
+      "im": 2.9390464888061216,
+      "abs_u": 8.280371998472669,
+      "absH_stored": 9.123524268084592e-43,
+      "nearest_step24_dist": 0.44102331880543577,
+      "nearest_node": {
+        "re": 7.755733174553776,
+        "im": 2.9500368410095823
+      },
+      "node_dist_from_zero": 0.01820087476779099,
+      "node_valid": true,
+      "node_Habs": 0.34492260796177837,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 17,
+      "re": -1.3757163042435936,
+      "im": 10.251801766241705,
+      "abs_u": 10.34369541334615,
+      "absH_stored": 5.6125697793358615e-42,
+      "nearest_step24_dist": 0.6285086258404089,
+      "nearest_node": {
+        "re": -1.369266825446224,
+        "im": 10.241703507676249
+      },
+      "node_dist_from_zero": 0.011982095092784608,
+      "node_valid": true,
+      "node_Habs": 0.26161576186287666,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 18,
+      "re": 0.8833348430458778,
+      "im": 11.3136956224785,
+      "abs_u": 11.34812711785641,
+      "absH_stored": 5.46974760698847e-43,
+      "nearest_step24_dist": 0.6356719917023863,
+      "nearest_node": {
+        "re": 0.8807331745537761,
+        "im": 11.325036841009583
+      },
+      "node_dist_from_zero": 0.011635803225930368,
+      "node_valid": true,
+      "node_Habs": 0.21195268217581584,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 19,
+      "re": 0.5148046710534171,
+      "im": 11.55836220104576,
+      "abs_u": 11.569821114429635,
+      "absH_stored": 1.4646602640387752e-42,
+      "nearest_step24_dist": 0.39100541313512593,
+      "nearest_node": {
+        "re": 0.5057331745537761,
+        "im": 11.575036841009583
+      },
+      "node_dist_from_zero": 0.018982509493375845,
+      "node_valid": true,
+      "node_Habs": 0.25204249505186294,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 21,
+      "re": -2.5619717858731645,
+      "im": 11.625032190536842,
+      "abs_u": 11.903993987844078,
+      "absH_stored": 1.0869271152675416e-40,
+      "nearest_step24_dist": 1.4756042562564216,
+      "nearest_node": {
+        "re": -2.577600158779557,
+        "im": 11.616703507676249
+      },
+      "node_dist_from_zero": 0.01770912188375258,
+      "node_valid": true,
+      "node_Habs": 1.2575252164166544,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 22,
+      "re": 11.322850982055387,
+      "im": 4.261184279519677,
+      "abs_u": 12.098125715409733,
+      "absH_stored": 1.497105423558616e-42,
+      "nearest_step24_dist": 0.30432676663746516,
+      "nearest_node": {
+        "re": 11.339066507887107,
+        "im": 4.241703507676249
+      },
+      "node_dist_from_zero": 0.02534647410617272,
+      "node_valid": true,
+      "node_Habs": 0.2764629578219029,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 24,
+      "re": 10.937667767967072,
+      "im": 5.500476178347189,
+      "abs_u": 12.242867898943887,
+      "absH_stored": 1.199412581423411e-41,
+      "nearest_step24_dist": 0.8405757539335923,
+      "nearest_node": {
+        "re": 10.922399841220441,
+        "im": 5.491703507676249
+      },
+      "node_dist_from_zero": 0.017608785813941718,
+      "node_valid": true,
+      "node_Habs": 1.9045707215263346,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 25,
+      "re": 10.873701107650762,
+      "im": 5.686113357783789,
+      "abs_u": 12.270666685070239,
+      "absH_stored": 6.671908782266641e-42,
+      "nearest_step24_dist": 1.026212933370192,
+      "nearest_node": {
+        "re": 10.880733174553775,
+        "im": 5.700036841009582
+      },
+      "node_dist_from_zero": 0.015598504738191816,
+      "node_valid": true,
+      "node_Habs": 0.7555982070845441,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 26,
+      "re": 1.6880897258578715,
+      "im": 13.195617768790258,
+      "abs_u": 13.303156588665717,
+      "absH_stored": 9.654121459841244e-43,
+      "nearest_step24_dist": 0.6296628583221171,
+      "nearest_node": {
+        "re": 1.6723998412204426,
+        "im": 13.200036841009583
+      },
+      "node_dist_from_zero": 0.016300327580003774,
+      "node_valid": true,
+      "node_Habs": 0.439098885070004,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 27,
+      "re": 2.749143936825504,
+      "im": 13.376183276706616,
+      "abs_u": 13.655770627739402,
+      "absH_stored": 1.5895358387006273e-41,
+      "nearest_step24_dist": 0.49237485847003937,
+      "nearest_node": {
+        "re": 2.755733174553776,
+        "im": 13.366703507676249
+      },
+      "node_dist_from_zero": 0.011544872225745663,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 28,
+      "re": 13.628350918883418,
+      "im": 3.1901248442335777,
+      "abs_u": 13.996744096039865,
+      "absH_stored": 7.926526960214491e-42,
+      "nearest_step24_dist": 1.17543667208577,
+      "nearest_node": {
+        "re": 13.630733174553775,
+        "im": 3.2000368410095823
+      },
+      "node_dist_from_zero": 0.010194254370304535,
+      "node_valid": true,
+      "node_Habs": 0.3587391380200913,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 30,
+      "re": 0.9999708767421076,
+      "im": 14.499808710480664,
+      "abs_u": 14.534249013790266,
+      "absH_stored": 3.2385110527764117e-40,
+      "nearest_step24_dist": 0.38404870271677005,
+      "nearest_node": {
+        "re": 1.005733174553776,
+        "im": 14.491703507676249
+      },
+      "node_dist_from_zero": 0.009944766893751933,
+      "node_valid": true,
+      "node_Habs": 1.4699679904759704,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 34,
+      "re": 11.437902719700244,
+      "im": 11.434825033165716,
+      "abs_u": 16.173461044700346,
+      "absH_stored": 7.084266976351427e-42,
+      "nearest_step24_dist": 0.06419422805885944,
+      "nearest_node": {
+        "re": 11.422399841220441,
+        "im": 11.450036841009583
+      },
+      "node_dist_from_zero": 0.02171953818657891,
+      "node_valid": true,
+      "node_Habs": 0.6435603509185224,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 35,
+      "re": 3.6249713745772567,
+      "im": 16.12502613160592,
+      "abs_u": 16.527458522455237,
+      "absH_stored": 6.149738497315713e-40,
+      "nearest_step24_dist": 0.008282031293429526,
+      "nearest_node": {
+        "re": 3.630733174553776,
+        "im": 16.11670350767625
+      },
+      "node_dist_from_zero": 0.01012247045163231,
+      "node_valid": true,
+      "node_Habs": 0.10933380064973922,
+      "is_local_min_on_step24_grid": true,
+      "pipeline_from_node": {
+        "newton_absH": 7.420152942457466e-06,
+        "domain_ok": true,
+        "polish_absH": 5.141896039398265e-41,
+        "stage_failed": null
+      },
+      "converged_to_orig_idx": 35,
+      "converged_to_dist": 0.008282031293429526,
+      "classification": "missed_converged_elsewhere"
+    },
+    {
+      "orig_idx": 36,
+      "re": 12.940423993382698,
+      "im": 10.43626067350659,
+      "abs_u": 16.62438299528421,
+      "absH_stored": 4.750179065063813e-42,
+      "nearest_step24_dist": 0.27330561297433675,
+      "nearest_node": {
+        "re": 12.922399841220441,
+        "im": 10.450036841009583
+      },
+      "node_dist_from_zero": 0.022685961567425243,
+      "node_valid": true,
+      "node_Habs": 0.7387626733616557,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 38,
+      "re": -6.878215823484835,
+      "im": 15.501882416188428,
+      "abs_u": 16.959310462391127,
+      "absH_stored": 8.228435940130171e-42,
+      "nearest_step24_dist": 0.38646616918582843,
+      "nearest_node": {
+        "re": -6.869266825446224,
+        "im": 15.491703507676249
+      },
+      "node_dist_from_zero": 0.013553403424762937,
+      "node_valid": true,
+      "node_Habs": 0.4028897634105665,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 42,
+      "re": 12.125107856501337,
+      "im": 12.9989469612306,
+      "abs_u": 17.77613182423771,
+      "absH_stored": 4.29830407916677e-42,
+      "nearest_step24_dist": 0.24345170971569452,
+      "nearest_node": {
+        "re": 12.130733174553775,
+        "im": 12.991703507676249
+      },
+      "node_dist_from_zero": 0.009171249783160182,
+      "node_valid": true,
+      "node_Habs": 0.6904645723060351,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 48,
+      "re": 14.814509769306603,
+      "im": 11.386701677276108,
+      "abs_u": 18.684931757760403,
+      "absH_stored": 2.253108370646289e-43,
+      "nearest_step24_dist": 0.5237573680378258,
+      "nearest_node": {
+        "re": 14.797399841220441,
+        "im": 11.366703507676249
+      },
+      "node_dist_from_zero": 0.02631874667339533,
+      "node_valid": true,
+      "node_Habs": 0.36582806118898675,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 49,
+      "re": -6.310824417014907,
+      "im": 17.681638045997108,
+      "abs_u": 18.774099946789566,
+      "absH_stored": 3.826618754354477e-42,
+      "nearest_step24_dist": 0.24009775507115094,
+      "nearest_node": {
+        "re": -6.327600158779557,
+        "im": 17.70003684100958
+      },
+      "node_dist_from_zero": 0.02489861782640187,
+      "node_valid": true,
+      "node_Habs": 0.7227463080047554,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 51,
+      "re": 16.18744470351865,
+      "im": 10.687501344001436,
+      "abs_u": 19.397320717240987,
+      "absH_stored": 3.880973064796298e-40,
+      "nearest_step24_dist": 0.19431923837899845,
+      "nearest_node": {
+        "re": 16.17239984122044,
+        "im": 10.700036841009583
+      },
+      "node_dist_from_zero": 0.019582813046479842,
+      "node_valid": true,
+      "node_Habs": 4.0673242517211765,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 52,
+      "re": -4.18695056003315,
+      "im": 19.18652843171317,
+      "abs_u": 19.63806070499579,
+      "absH_stored": 5.337301929963694e-41,
+      "nearest_step24_dist": 0.10854299359469088,
+      "nearest_node": {
+        "re": -4.202600158779557,
+        "im": 19.20003684100958
+      },
+      "node_dist_from_zero": 0.02067334183538975,
+      "node_valid": true,
+      "node_Habs": 3.250323808171643,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 53,
+      "re": 15.624557614364573,
+      "im": 12.068228430882668,
+      "abs_u": 19.742566654428767,
+      "absH_stored": 1.4497747067169482e-42,
+      "nearest_step24_dist": 0.13045353696929674,
+      "nearest_node": {
+        "re": 15.630733174553775,
+        "im": 12.075036841009583
+      },
+      "node_dist_from_zero": 0.009191952573133775,
+      "node_valid": true,
+      "node_Habs": 0.3457506105571964,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 54,
+      "re": 11.499230012110706,
+      "im": 16.2515001514183,
+      "abs_u": 19.908378840151112,
+      "absH_stored": 1.447174296615924e-41,
+      "nearest_step24_dist": 0.9068808294866422,
+      "nearest_node": {
+        "re": 11.505733174553775,
+        "im": 16.24170350767625
+      },
+      "node_dist_from_zero": 0.011758628762299807,
+      "node_valid": true,
+      "node_Habs": 0.9244241551574115,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 55,
+      "re": 12.375036883885919,
+      "im": 15.74942667701708,
+      "abs_u": 20.029627518560453,
+      "absH_stored": 1.1313179863831883e-41,
+      "nearest_step24_dist": 0.9220586203849184,
+      "nearest_node": {
+        "re": 12.380733174553775,
+        "im": 15.741703507676249
+      },
+      "node_dist_from_zero": 0.009596617739592805,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 56,
+      "re": -3.9347889384397488,
+      "im": 19.689946120242915,
+      "abs_u": 20.079256515322893,
+      "absH_stored": 2.587195385529814e-41,
+      "nearest_step24_dist": 0.533134540899372,
+      "nearest_node": {
+        "re": -3.952600158779557,
+        "im": 19.70003684100958
+      },
+      "node_dist_from_zero": 0.020471009149136212,
+      "node_valid": true,
+      "node_Habs": 0.8737198699911238,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 57,
+      "re": 14.624918746736798,
+      "im": 14.187603612772245,
+      "abs_u": 20.375876536281854,
+      "absH_stored": 4.362309917007868e-41,
+      "nearest_step24_dist": 0.07963762772549998,
+      "nearest_node": {
+        "re": 14.630733174553775,
+        "im": 14.200036841009583
+      },
+      "node_dist_from_zero": 0.013725623309729172,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 59,
+      "re": 10.936479425457714,
+      "im": 17.62429492298856,
+      "abs_u": 20.741802085545515,
+      "absH_stored": 3.2728405932778167e-41,
+      "nearest_step24_dist": 0.1944422386990894,
+      "nearest_node": {
+        "re": 10.922399841220441,
+        "im": 17.61670350767625
+      },
+      "node_dist_from_zero": 0.015995758148286097,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 60,
+      "re": 11.250121954507694,
+      "im": 17.62527810359652,
+      "abs_u": 20.909702824775273,
+      "absH_stored": 2.3362892115546408e-42,
+      "nearest_step24_dist": 0.008426738994373295,
+      "nearest_node": {
+        "re": 11.255733174553775,
+        "im": 17.61670350767625
+      },
+      "node_dist_from_zero": 0.010247413605466268,
+      "node_valid": true,
+      "node_Habs": 0.09606263729330702,
+      "is_local_min_on_step24_grid": true,
+      "pipeline_from_node": {
+        "newton_absH": 1.8904801505442217e-07,
+        "domain_ok": true,
+        "polish_absH": 3.4687841021555705e-41,
+        "stage_failed": null
+      },
+      "converged_to_orig_idx": 60,
+      "converged_to_dist": 0.008426738994373295,
+      "classification": "missed_converged_elsewhere"
+    },
+    {
+      "orig_idx": 61,
+      "re": 15.94068110797125,
+      "im": 13.563340510845364,
+      "abs_u": 20.930110367582166,
+      "absH_stored": 3.7881904850019474e-42,
+      "nearest_step24_dist": 0.10204585526938814,
+      "nearest_node": {
+        "re": 15.922399841220441,
+        "im": 13.575036841009583
+      },
+      "node_dist_from_zero": 0.021702738383084414,
+      "node_valid": true,
+      "node_Habs": 0.45843908894451846,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 62,
+      "re": 10.31253753736673,
+      "im": 18.31239479672942,
+      "abs_u": 21.016475290849336,
+      "absH_stored": 8.954923427503451e-41,
+      "nearest_step24_dist": 0.19196967402154108,
+      "nearest_node": {
+        "re": 10.297399841220441,
+        "im": 18.32503684100958
+      },
+      "node_dist_from_zero": 0.019722350980521282,
+      "node_valid": true,
+      "node_Habs": 0.6438498760257254,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 63,
+      "re": 11.000583397953895,
+      "im": 18.374625277204327,
+      "abs_u": 21.415874700161446,
+      "absH_stored": 3.789329075338156e-41,
+      "nearest_step24_dist": 0.25846997848566033,
+      "nearest_node": {
+        "re": 11.005733174553775,
+        "im": 18.36670350767625
+      },
+      "node_dist_from_zero": 0.009448525360323024,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 66,
+      "re": -15.371283707815149,
+      "im": 15.255928610865723,
+      "abs_u": 21.65686312940946,
+      "absH_stored": 4.438562985040254e-42,
+      "nearest_step24_dist": 0.5442242590729105,
+      "nearest_node": {
+        "re": -15.369266825446225,
+        "im": 15.241703507676249
+      },
+      "node_dist_from_zero": 0.014367371897506951,
+      "node_valid": true,
+      "node_Habs": 0.21048307024525023,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 67,
+      "re": -13.620678290756434,
+      "im": 17.185575070991536,
+      "abs_u": 21.92867683242583,
+      "absH_stored": 2.142339703549583e-42,
+      "nearest_step24_dist": 1.1836025634218004,
+      "nearest_node": {
+        "re": -13.619266825446225,
+        "im": 17.20003684100958
+      },
+      "node_dist_from_zero": 0.01453048610256177,
+      "node_valid": true,
+      "node_Habs": 0.37395257839747453,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 68,
+      "re": -13.068165711128584,
+      "im": 17.753167909432918,
+      "abs_u": 22.04431731476472,
+      "absH_stored": 2.8554194717860265e-42,
+      "nearest_step24_dist": 1.075865633206556,
+      "nearest_node": {
+        "re": -13.077600158779557,
+        "im": 17.74170350767625
+      },
+      "node_dist_from_zero": 0.014847266082254418,
+      "node_valid": true,
+      "node_Habs": 0.24315521369085538,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 69,
+      "re": 9.37503008178046,
+      "im": 20.37489463252936,
+      "abs_u": 22.42827501884535,
+      "absH_stored": 5.014082785659333e-41,
+      "nearest_step24_dist": 0.880349563022019,
+      "nearest_node": {
+        "re": 9.380733174553775,
+        "im": 20.36670350767625
+      },
+      "node_dist_from_zero": 0.00998097157296412,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 70,
+      "re": 20.752000682386786,
+      "im": 8.87310521925356,
+      "abs_u": 22.569393623970637,
+      "absH_stored": 2.965915035560296e-42,
+      "nearest_step24_dist": 0.4119930772979572,
+      "nearest_node": {
+        "re": 20.755733174553775,
+        "im": 8.866703507676249
+      },
+      "node_dist_from_zero": 0.007410358216423543,
+      "node_valid": true,
+      "node_Habs": 0.26218325737814907,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 71,
+      "re": 13.812334391162544,
+      "im": 18.31265618750664,
+      "abs_u": 22.937610119084262,
+      "absH_stored": 8.237380054532562e-42,
+      "nearest_step24_dist": 0.17919619456002067,
+      "nearest_node": {
+        "re": 13.797399841220441,
+        "im": 18.32503684100958
+      },
+      "node_dist_from_zero": 0.019399004178901676,
+      "node_valid": true,
+      "node_Habs": 0.8131968150515348,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 72,
+      "re": 20.07266336426094,
+      "im": 11.75702817582027,
+      "abs_u": 23.262405852834206,
+      "absH_stored": 3.0779508107763806e-42,
+      "nearest_step24_dist": 0.2752930125483033,
+      "nearest_node": {
+        "re": 20.089066507887107,
+        "im": 11.741703507676249
+      },
+      "node_dist_from_zero": 0.022447908021574387,
+      "node_valid": true,
+      "node_Habs": 0.2522036379951019,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 73,
+      "re": 21.246393110489585,
+      "im": 9.51472585835994,
+      "abs_u": 23.27958823444269,
+      "absH_stored": 2.3022344230951644e-42,
+      "nearest_step24_dist": 0.9063855054007561,
+      "nearest_node": {
+        "re": 21.255733174553775,
+        "im": 9.533370174342917
+      },
+      "node_dist_from_zero": 0.020852992955359247,
+      "node_valid": true,
+      "node_Habs": 0.21821273049518564,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 75,
+      "re": 12.93747081118244,
+      "im": 19.62490267784779,
+      "abs_u": 23.50563668793498,
+      "absH_stored": 1.2309485078009447e-40,
+      "nearest_step24_dist": 0.4310316468065256,
+      "nearest_node": {
+        "re": 12.922399841220441,
+        "im": 19.61670350767625
+      },
+      "node_dist_from_zero": 0.017156938162076998,
+      "node_valid": true,
+      "node_Habs": 0.5811171105573777,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 76,
+      "re": 10.941069697032367,
+      "im": 20.8166725094286,
+      "abs_u": 23.516820798741488,
+      "absH_stored": 3.732765716197823e-43,
+      "nearest_step24_dist": 0.14801458016011715,
+      "nearest_node": {
+        "re": 10.922399841220441,
+        "im": 20.82503684100958
+      },
+      "node_dist_from_zero": 0.020457897224169685,
+      "node_valid": true,
+      "node_Habs": 0.4318641754680919,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 77,
+      "re": 11.312429499956469,
+      "im": 20.875295311465113,
+      "abs_u": 23.74339940978045,
+      "absH_stored": 3.6717355661089533e-41,
+      "nearest_step24_dist": 0.22334522276398516,
+      "nearest_node": {
+        "re": 11.297399841220441,
+        "im": 20.86670350767625
+      },
+      "node_dist_from_zero": 0.01731212679215901,
+      "node_valid": true,
+      "node_Habs": 0.9954311617929025,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 79,
+      "re": 12.93731242475529,
+      "im": 20.125353727630287,
+      "abs_u": 23.924964272449184,
+      "absH_stored": 2.558571454475948e-41,
+      "nearest_step24_dist": 0.4308732603793768,
+      "nearest_node": {
+        "re": 12.922399841220441,
+        "im": 20.11670350767625
+      },
+      "node_dist_from_zero": 0.017239821719992075,
+      "node_valid": true,
+      "node_Habs": 2.156624923852368,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 81,
+      "re": 20.563392302272238,
+      "im": 13.067401009726611,
+      "abs_u": 24.364114433448083,
+      "absH_stored": 2.372164423724962e-42,
+      "nearest_step24_dist": 0.30578904519946803,
+      "nearest_node": {
+        "re": 20.54739984122044,
+        "im": 13.075036841009583
+      },
+      "node_dist_from_zero": 0.0177218715116462,
+      "node_valid": true,
+      "node_Habs": 0.2693820379645094,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 83,
+      "re": 12.316462429345385,
+      "im": 21.251240815811848,
+      "abs_u": 24.56237942433721,
+      "absH_stored": 5.4247372516446943e-42,
+      "nearest_step24_dist": 0.32104546285164304,
+      "nearest_node": {
+        "re": 12.297399841220441,
+        "im": 21.24170350767625
+      },
+      "node_dist_from_zero": 0.021315311691237866,
+      "node_valid": true,
+      "node_Habs": 0.6143121582373483,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 85,
+      "re": 12.498697572503545,
+      "im": 21.311732302080188,
+      "abs_u": 24.706423754247275,
+      "absH_stored": 6.64736161800137e-42,
+      "nearest_step24_dist": 0.16788615410122532,
+      "nearest_node": {
+        "re": 12.505733174553775,
+        "im": 21.32503684100958
+      },
+      "node_dist_from_zero": 0.015050264194788948,
+      "node_valid": true,
+      "node_Habs": 0.9672144811687798,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 86,
+      "re": 11.947507979944364,
+      "im": 21.806113739368758,
+      "abs_u": 24.8646243354916,
+      "absH_stored": 1.2584049656085193e-42,
+      "nearest_step24_dist": 0.2277441310270909,
+      "nearest_node": {
+        "re": 11.964066507887107,
+        "im": 21.82503684100958
+      },
+      "node_dist_from_zero": 0.025144952243731433,
+      "node_valid": true,
+      "node_Habs": 0.2619737801302234,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 89,
+      "re": 10.874949068788348,
+      "im": 22.87500521607031,
+      "abs_u": 25.328450029245463,
+      "absH_stored": 4.949380351307569e-40,
+      "nearest_step24_dist": 0.08970234775928176,
+      "nearest_node": {
+        "re": 10.880733174553775,
+        "im": 22.86670350767625
+      },
+      "node_dist_from_zero": 0.010118015702975984,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 90,
+      "re": 13.058192059297031,
+      "im": 21.812913317375422,
+      "abs_u": 25.422815879615342,
+      "absH_stored": 3.349269024777643e-42,
+      "nearest_step24_dist": 0.4206841671000028,
+      "nearest_node": {
+        "re": 13.047399841220441,
+        "im": 21.82503684100958
+      },
+      "node_dist_from_zero": 0.01623119824044698,
+      "node_valid": true,
+      "node_Habs": 0.4315709897113412,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 92,
+      "re": 12.312059209085662,
+      "im": 22.628962654475075,
+      "abs_u": 25.761536304841346,
+      "absH_stored": 6.502200761361804e-42,
+      "nearest_step24_dist": 0.4445644155049546,
+      "nearest_node": {
+        "re": 12.297399841220441,
+        "im": 22.61670350767625
+      },
+      "node_dist_from_zero": 0.019109781433680303,
+      "node_valid": true,
+      "node_Habs": 0.8517045116598275,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 96,
+      "re": 23.75047381169578,
+      "im": 10.87495174414015,
+      "abs_u": 26.121821944830415,
+      "absH_stored": 3.15704110551636e-41,
+      "nearest_step24_dist": 0.4594133200930095,
+      "nearest_node": {
+        "re": 23.755733174553775,
+        "im": 10.866703507676249
+      },
+      "node_dist_from_zero": 0.009782346468842799,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 100,
+      "re": 25.312648017185015,
+      "im": 10.687227789892853,
+      "abs_u": 27.47629864947167,
+      "absH_stored": 2.6563587417981166e-41,
+      "nearest_step24_dist": 1.5671671254334072,
+      "nearest_node": {
+        "re": 25.29739984122044,
+        "im": 10.700036841009583
+      },
+      "node_dist_from_zero": 0.019914282833124006,
+      "node_valid": true,
+      "node_Habs": 0.8522164986498266,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 103,
+      "re": 20.12501341119483,
+      "im": 19.250013225255998,
+      "abs_u": 27.849222143056394,
+      "absH_stored": 2.3184346163108784e-41,
+      "nearest_step24_dist": 0.5055612395737015,
+      "nearest_node": {
+        "re": 20.130733174553775,
+        "im": 19.24170350767625
+      },
+      "node_dist_from_zero": 0.010087968038090755,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 104,
+      "re": 23.311998405689614,
+      "im": 15.50013864653713,
+      "abs_u": 27.994706066125236,
+      "absH_stored": 1.6236102814463393e-41,
+      "nearest_step24_dist": 0.8374454354052112,
+      "nearest_node": {
+        "re": 23.29739984122044,
+        "im": 15.491703507676249
+      },
+      "node_dist_from_zero": 0.016860298104214865,
+      "node_valid": true,
+      "node_Habs": 2.621422253806771,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 108,
+      "re": 21.874979658654937,
+      "im": 18.562548227045646,
+      "abs_u": 28.68942194865492,
+      "absH_stored": 4.221486523153656e-41,
+      "nearest_step24_dist": 0.49712317357454694,
+      "nearest_node": {
+        "re": 21.880733174553775,
+        "im": 18.57503684100958
+      },
+      "node_dist_from_zero": 0.013750215414253825,
+      "node_valid": true,
+      "node_Habs": 2.0963675144333695,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 109,
+      "re": 0.5000304974504075,
+      "im": 28.813647553831828,
+      "abs_u": 28.817985978461774,
+      "absH_stored": 2.60122016761566e-41,
+      "nearest_step24_dist": 0.7371507644457935,
+      "nearest_node": {
+        "re": 0.5057331745537761,
+        "im": 28.82503684100958
+      },
+      "node_dist_from_zero": 0.012737204895997131,
+      "node_valid": true,
+      "node_Habs": 0.4164324871168031,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 111,
+      "re": -16.173821316663847,
+      "im": 24.4321933796369,
+      "abs_u": 29.30058991425502,
+      "absH_stored": 8.342419235105994e-42,
+      "nearest_step24_dist": 0.1902348872575832,
+      "nearest_node": {
+        "re": -16.16093349211289,
+        "im": 24.45003684100958
+      },
+      "node_dist_from_zero": 0.02201102304334484,
+      "node_valid": true,
+      "node_Habs": 0.28632220156402266,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 115,
+      "re": 26.999034096098953,
+      "im": 13.439177304293926,
+      "abs_u": 30.1589013184924,
+      "absH_stored": 2.229316720870911e-42,
+      "nearest_step24_dist": 0.17352405185902953,
+      "nearest_node": {
+        "re": 27.005733174553775,
+        "im": 13.450036841009583
+      },
+      "node_dist_from_zero": 0.012759592071166038,
+      "node_valid": true,
+      "node_Habs": 0.3568456619125758,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 117,
+      "re": 29.126090367501185,
+      "im": 8.938866812418565,
+      "abs_u": 30.466907949216036,
+      "absH_stored": 2.73595056711158e-42,
+      "nearest_step24_dist": 0.3795092757469565,
+      "nearest_node": {
+        "re": 29.130733174553775,
+        "im": 8.950036841009583
+      },
+      "node_dist_from_zero": 0.012096495197028441,
+      "node_valid": true,
+      "node_Habs": 0.6370828716699528,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 118,
+      "re": -9.812436557520023,
+      "im": 28.875757050933924,
+      "abs_u": 30.497430325519485,
+      "absH_stored": 6.267562658405916e-41,
+      "nearest_step24_dist": 0.5773598828746707,
+      "nearest_node": {
+        "re": -9.827600158779557,
+        "im": 28.86670350767625
+      },
+      "node_dist_from_zero": 0.017660731827326227,
+      "node_valid": true,
+      "node_Habs": 0.8536283608396711,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 119,
+      "re": 28.245154996334374,
+      "im": 11.747047261013122,
+      "abs_u": 30.590552465090077,
+      "absH_stored": 3.218951034679363e-42,
+      "nearest_step24_dist": 0.2836878832154994,
+      "nearest_node": {
+        "re": 28.255733174553775,
+        "im": 11.741703507676249
+      },
+      "node_dist_from_zero": 0.011851310229959937,
+      "node_valid": true,
+      "node_Habs": 0.461553651800656,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 120,
+      "re": -10.123362181637878,
+      "im": 28.93629648275954,
+      "abs_u": 30.656022507800618,
+      "absH_stored": 9.762976179570662e-42,
+      "nearest_step24_dist": 0.5168204510490533,
+      "nearest_node": {
+        "re": -10.119266825446225,
+        "im": 28.95003684100958
+      },
+      "node_dist_from_zero": 0.01433769113825336,
+      "node_valid": true,
+      "node_Habs": 0.6012592894932942,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 121,
+      "re": -1.7501448285774597,
+      "im": 30.688255857750825,
+      "abs_u": 30.738120542931284,
+      "absH_stored": 1.0362384289234622e-41,
+      "nearest_step24_dist": 1.7384024806052487,
+      "nearest_node": {
+        "re": -1.744266825446224,
+        "im": 30.70003684100958
+      },
+      "node_dist_from_zero": 0.013165959416385455,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 122,
+      "re": -15.000020363690412,
+      "im": 26.93808568562853,
+      "abs_u": 30.832792142739713,
+      "absH_stored": 8.204303410282941e-41,
+      "nearest_step24_dist": 0.3185572761419593,
+      "nearest_node": {
+        "re": -14.994266825446225,
+        "im": 26.95003684100958
+      },
+      "node_dist_from_zero": 0.01326398572335521,
+      "node_valid": true,
+      "node_Habs": 0.9744755001738226,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 123,
+      "re": 22.75011271081911,
+      "im": 20.812598466926747,
+      "abs_u": 30.833940443940907,
+      "absH_stored": 7.882069735881825e-41,
+      "nearest_step24_dist": 0.6049239581987003,
+      "nearest_node": {
+        "re": 22.755733174553775,
+        "im": 20.82503684100958
+      },
+      "node_dist_from_zero": 0.01364927699247081,
+      "node_valid": true,
+      "node_Habs": 3.1918129228808945,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 124,
+      "re": -9.62986816338784,
+      "im": 29.371284068742227,
+      "abs_u": 30.909653648835693,
+      "absH_stored": 5.769397119051127e-42,
+      "nearest_step24_dist": 0.5274057095470823,
+      "nearest_node": {
+        "re": -9.619266825446225,
+        "im": 29.36670350767625
+      },
+      "node_dist_from_zero": 0.011548588910836337,
+      "node_valid": true,
+      "node_Habs": 0.39453175994785433,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 129,
+      "re": 14.312731459773987,
+      "im": 27.562916600642673,
+      "abs_u": 31.057505588401455,
+      "absH_stored": 1.2485325492441654e-41,
+      "nearest_step24_dist": 1.0538580487641198,
+      "nearest_node": {
+        "re": 14.297399841220441,
+        "im": 27.57503684100958
+      },
+      "node_dist_from_zero": 0.019543765093324807,
+      "node_valid": true,
+      "node_Habs": 0.39950852176980867,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 130,
+      "re": 22.38080571492655,
+      "im": 21.87907809962205,
+      "abs_u": 31.29847477016492,
+      "absH_stored": 3.9558697520893236e-42,
+      "nearest_step24_dist": 0.12676120821063108,
+      "nearest_node": {
+        "re": 22.380733174553775,
+        "im": 21.86670350767625
+      },
+      "node_dist_from_zero": 0.012374804561315175,
+      "node_valid": true,
+      "node_Habs": 0.26294676788059207,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 131,
+      "re": -15.749717975647158,
+      "im": 27.248889820678396,
+      "abs_u": 31.473093473185852,
+      "absH_stored": 8.081148709690012e-42,
+      "nearest_step24_dist": 0.27439064929696855,
+      "nearest_node": {
+        "re": -15.744266825446225,
+        "im": 27.24170350767625
+      },
+      "node_dist_from_zero": 0.009019874338258392,
+      "node_valid": true,
+      "node_Habs": 1.028917442415585,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 132,
+      "re": 21.813084947316366,
+      "im": 22.68822728044061,
+      "abs_u": 31.47326376542111,
+      "absH_stored": 1.1082930580500453e-41,
+      "nearest_step24_dist": 0.17562526216166674,
+      "nearest_node": {
+        "re": 21.79739984122044,
+        "im": 22.70003684100958
+      },
+      "node_dist_from_zero": 0.019633855303343765,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 133,
+      "re": -10.190889017612395,
+      "im": 29.936689045341815,
+      "abs_u": 31.623718471533063,
+      "absH_stored": 5.6674278275905227e-42,
+      "nearest_step24_dist": 0.3867115856720602,
+      "nearest_node": {
+        "re": -10.202600158779557,
+        "im": 29.95003684100958
+      },
+      "node_dist_from_zero": 0.017757096514509792,
+      "node_valid": true,
+      "node_Habs": 0.708381685617203,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 136,
+      "re": -7.8106774712587015,
+      "im": 31.06273158763006,
+      "abs_u": 32.02967337087874,
+      "absH_stored": 3.43732002545141e-42,
+      "nearest_step24_dist": 0.1341410012860358,
+      "nearest_node": {
+        "re": -7.827600158779557,
+        "im": 31.07503684100958
+      },
+      "node_dist_from_zero": 0.020923589884689855,
+      "node_valid": true,
+      "node_Habs": 1.1911705023010608,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 139,
+      "re": 29.753322536432712,
+      "im": 12.811618314317135,
+      "abs_u": 32.39440948356276,
+      "absH_stored": 1.528294399235593e-41,
+      "nearest_step24_dist": 0.9984303557306298,
+      "nearest_node": {
+        "re": 29.755733174553775,
+        "im": 12.825036841009583
+      },
+      "node_dist_from_zero": 0.013633342757616344,
+      "node_valid": true,
+      "node_Habs": 0.8338835590167929,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 141,
+      "re": -9.683167918061496,
+      "im": 31.06911268456262,
+      "abs_u": 32.543102248178876,
+      "absH_stored": 5.0899789128146324e-42,
+      "nearest_step24_dist": 0.171508338639768,
+      "nearest_node": {
+        "re": -9.702600158779557,
+        "im": 31.07503684100958
+      },
+      "node_dist_from_zero": 0.020315206347284336,
+      "node_valid": true,
+      "node_Habs": 0.4677450968064646,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 142,
+      "re": 2.498752129779084,
+      "im": 32.68865426941534,
+      "abs_u": 32.784018669947116,
+      "absH_stored": 1.502728104162147e-41,
+      "nearest_step24_dist": 1.945372365980099,
+      "nearest_node": {
+        "re": 2.505733174553776,
+        "im": 32.70003684100958
+      },
+      "node_dist_from_zero": 0.013352824504360438,
+      "node_valid": true,
+      "node_Habs": 0.9368137804653841,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 144,
+      "re": 2.374984816996322,
+      "im": 32.81249556457811,
+      "abs_u": 32.898334578765855,
+      "absH_stored": 3.484275617261446e-40,
+      "nearest_step24_dist": 1.8216050531973371,
+      "nearest_node": {
+        "re": 2.380733174553776,
+        "im": 32.82503684100958
+      },
+      "node_dist_from_zero": 0.013795913494179725,
+      "node_valid": true,
+      "node_Habs": 3.306438857267287,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 146,
+      "re": -9.944399539984191,
+      "im": 31.44112089797677,
+      "abs_u": 32.976281863363994,
+      "absH_stored": 1.3989905490255914e-42,
+      "nearest_step24_dist": 0.23704412487273885,
+      "nearest_node": {
+        "re": -9.952600158779557,
+        "im": 31.45003684100958
+      },
+      "node_dist_from_zero": 0.012113801582956269,
+      "node_valid": true,
+      "node_Habs": 0.24090638521391963,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 147,
+      "re": -15.874462002284702,
+      "im": 28.93739351239238,
+      "abs_u": 33.00562508350704,
+      "absH_stored": 8.920602181409304e-42,
+      "nearest_step24_dist": 0.17602581773082093,
+      "nearest_node": {
+        "re": -15.869266825446225,
+        "im": 28.95003684100958
+      },
+      "node_dist_from_zero": 0.013669075349327608,
+      "node_valid": true,
+      "node_Habs": 0.6539513687380922,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 149,
+      "re": -4.247713703830997,
+      "im": 32.93742644540107,
+      "abs_u": 33.21019621375218,
+      "absH_stored": 9.770169126973334e-42,
+      "nearest_step24_dist": 0.5449929350703155,
+      "nearest_node": {
+        "re": -4.244266825446224,
+        "im": 32.95003684100958
+      },
+      "node_dist_from_zero": 0.013072989252745892,
+      "node_valid": true,
+      "node_Habs": 0.4031541390571195,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 153,
+      "re": -13.624787980012977,
+      "im": 30.626279067682873,
+      "abs_u": 33.520200134126526,
+      "absH_stored": 8.499179438960643e-42,
+      "nearest_step24_dist": 0.1559715243114912,
+      "nearest_node": {
+        "re": -13.619266825446225,
+        "im": 30.61670350767625
+      },
+      "node_dist_from_zero": 0.011053257311328042,
+      "node_valid": true,
+      "node_Habs": 0.5330093920217177,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 154,
+      "re": -0.8134234860634566,
+      "im": 33.56384238337188,
+      "abs_u": 33.57369764121179,
+      "absH_stored": 1.8588934635993825e-41,
+      "nearest_step24_dist": 0.7619088447584232,
+      "nearest_node": {
+        "re": -0.8276001587795572,
+        "im": 33.57503684100958
+      },
+      "node_dist_from_zero": 0.01806360792039308,
+      "node_valid": true,
+      "node_Habs": 1.29753798606369,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 155,
+      "re": 31.937323762831372,
+      "im": 10.499933046527621,
+      "abs_u": 33.61906071135058,
+      "absH_stored": 2.7900340564967163e-41,
+      "nearest_step24_dist": 0.23355581086954302,
+      "nearest_node": {
+        "re": 31.92239984122044,
+        "im": 10.491703507676249
+      },
+      "node_dist_from_zero": 0.01704255690779759,
+      "node_valid": true,
+      "node_Habs": 1.4214773095322686,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 169,
+      "re": 34.56267997534564,
+      "im": 3.8132425340368092,
+      "abs_u": 34.772398043585454,
+      "absH_stored": 2.722667880131322e-41,
+      "nearest_step24_dist": 0.5138880452674499,
+      "nearest_node": {
+        "re": 34.54739984122044,
+        "im": 3.8250368410095823
+      },
+      "node_dist_from_zero": 0.019302543248288933,
+      "node_valid": true,
+      "node_Habs": 1.343026981480823,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 173,
+      "re": -15.747325852202245,
+      "im": 31.12480309201462,
+      "abs_u": 34.88168056461902,
+      "absH_stored": 1.0654397373548528e-41,
+      "nearest_step24_dist": 1.3873630077238346,
+      "nearest_node": {
+        "re": -15.744266825446225,
+        "im": 31.11670350767625
+      },
+      "node_dist_from_zero": 0.008657996947818394,
+      "node_valid": true,
+      "node_Habs": 0.38153900174256133,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 175,
+      "re": 34.62626289598547,
+      "im": 5.125543050988002,
+      "abs_u": 35.00356087185176,
+      "absH_stored": 1.0087432363919677e-42,
+      "nearest_step24_dist": 0.2939274145726998,
+      "nearest_node": {
+        "re": 34.630733174553775,
+        "im": 5.116703507676249
+      },
+      "node_dist_from_zero": 0.009905600256350447,
+      "node_valid": true,
+      "node_Habs": 0.7255762408164341,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 176,
+      "re": -4.687673131224642,
+      "im": 34.74849926847677,
+      "abs_u": 35.063263978080194,
+      "absH_stored": 1.0868860464764236e-41,
+      "nearest_step24_dist": 0.13881506444576264,
+      "nearest_node": {
+        "re": -4.702600158779557,
+        "im": 34.74170350767624
+      },
+      "node_dist_from_zero": 0.016401174240986277,
+      "node_valid": true,
+      "node_Habs": 2.058830196810711,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 177,
+      "re": -19.80477989005033,
+      "im": 28.939639306892765,
+      "abs_u": 35.067535267058545,
+      "absH_stored": 2.4254590065928555e-42,
+      "nearest_step24_dist": 0.6248750421372229,
+      "nearest_node": {
+        "re": -19.78593349211289,
+        "im": 28.95003684100958
+      },
+      "node_dist_from_zero": 0.021524298616371586,
+      "node_valid": true,
+      "node_Habs": 0.27397795093413546,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 183,
+      "re": -17.99972830970017,
+      "im": 30.25026193202528,
+      "abs_u": 35.200405767251596,
+      "absH_stored": 3.3036829560008135e-41,
+      "nearest_step24_dist": 0.4780536500099011,
+      "nearest_node": {
+        "re": -17.994266825446225,
+        "im": 30.24170350767625
+      },
+      "node_dist_from_zero": 0.010152558179796815,
+      "node_valid": true,
+      "node_Habs": 1.2087329089131411,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 186,
+      "re": 17.312459577839366,
+      "im": 30.93748275500506,
+      "abs_u": 35.4520675821673,
+      "absH_stored": 7.652476942086114e-40,
+      "nearest_step24_dist": 1.137469664960431,
+      "nearest_node": {
+        "re": 17.29739984122044,
+        "im": 30.95003684100958
+      },
+      "node_dist_from_zero": 0.019606140426925957,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 187,
+      "re": 19.312428560408637,
+      "im": 29.750041111895907,
+      "abs_u": 35.46878688453249,
+      "absH_stored": 2.931343751961582e-40,
+      "nearest_step24_dist": 2.3483918201286293,
+      "nearest_node": {
+        "re": 19.29739984122044,
+        "im": 29.74170350767625
+      },
+      "node_dist_from_zero": 0.017186565816397794,
+      "node_valid": true,
+      "node_Habs": 0.7049430264814592,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 189,
+      "re": -18.741923445869475,
+      "im": 30.13618961318335,
+      "abs_u": 35.488725235665655,
+      "absH_stored": 4.8376691620109067e-42,
+      "nearest_step24_dist": 0.2641414861594029,
+      "nearest_node": {
+        "re": -18.744266825446225,
+        "im": 30.11670350767625
+      },
+      "node_dist_from_zero": 0.019626505946669467,
+      "node_valid": true,
+      "node_Habs": 0.2693759729477867,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 190,
+      "re": 32.62527051329986,
+      "im": 14.124932215066359,
+      "abs_u": 35.551680496795264,
+      "absH_stored": 9.009407091981821e-41,
+      "nearest_step24_dist": 1.5911728819937068,
+      "nearest_node": {
+        "re": 32.630733174553775,
+        "im": 14.116703507676249
+      },
+      "node_dist_from_zero": 0.00987685644762933,
+      "node_valid": true,
+      "node_Habs": 0.7172891227398556,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 194,
+      "re": -5.803587400582016,
+      "im": 35.51552072180312,
+      "abs_u": 35.98657859337313,
+      "absH_stored": 8.933935087303132e-43,
+      "nearest_step24_dist": 0.34645217432724706,
+      "nearest_node": {
+        "re": -5.78593349211289,
+        "im": 35.53337017434291
+      },
+      "node_dist_from_zero": 0.025105048102056514,
+      "node_valid": true,
+      "node_Habs": 0.2291323385566446,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 195,
+      "re": -8.386711540897664,
+      "im": 35.056839775597815,
+      "abs_u": 36.04606699103473,
+      "absH_stored": 3.162705870065035e-42,
+      "nearest_step24_dist": 0.4318929034069541,
+      "nearest_node": {
+        "re": -8.369266825446225,
+        "im": 35.07503684100958
+      },
+      "node_dist_from_zero": 0.025208159131155206,
+      "node_valid": true,
+      "node_Habs": 0.33541787838210885,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 196,
+      "re": -18.187144133394956,
+      "im": 31.124003901700306,
+      "abs_u": 36.04824310007269,
+      "absH_stored": 2.4577187694180105e-41,
+      "nearest_step24_dist": 1.2326547628040778,
+      "nearest_node": {
+        "re": -18.202600158779557,
+        "im": 31.11670350767625
+      },
+      "node_dist_from_zero": 0.017093404388708777,
+      "node_valid": true,
+      "node_Habs": 0.5875971944457424,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 197,
+      "re": -20.571015303440802,
+      "im": 29.67812611327374,
+      "abs_u": 36.11035641211225,
+      "absH_stored": 4.5285705532337925e-43,
+      "nearest_step24_dist": 0.19636022984688495,
+      "nearest_node": {
+        "re": -20.577600158779557,
+        "im": 29.658370174342917
+      },
+      "node_dist_from_zero": 0.02082444339882334,
+      "node_valid": true,
+      "node_Habs": 0.20332715226958814,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 198,
+      "re": -5.49995187522584,
+      "im": 35.75010824950906,
+      "abs_u": 36.1707023774963,
+      "absH_stored": 1.4766261626726161e-40,
+      "nearest_step24_dist": 0.11186464662130646,
+      "nearest_node": {
+        "re": -5.494266825446224,
+        "im": 35.74170350767624
+      },
+      "node_dist_from_zero": 0.010146894907953759,
+      "node_valid": true,
+      "node_Habs": 1.7835204628013195,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 201,
+      "re": 34.37520161410282,
+      "im": 11.50000546662582,
+      "abs_u": 36.2478221655128,
+      "absH_stored": 1.2888992176567497e-40,
+      "nearest_step24_dist": 0.767200770536892,
+      "nearest_node": {
+        "re": 34.380733174553775,
+        "im": 11.491703507676249
+      },
+      "node_dist_from_zero": 0.009976005384067135,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 204,
+      "re": 35.94148993650348,
+      "im": 5.671729707626306,
+      "abs_u": 36.386250380221256,
+      "absH_stored": 7.0253251971005655e-43,
+      "nearest_step24_dist": 0.6377516325226837,
+      "nearest_node": {
+        "re": 35.92239984122044,
+        "im": 5.658370174342916
+      },
+      "node_dist_from_zero": 0.023300404877717742,
+      "node_valid": true,
+      "node_Habs": 0.25469148636827954,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 206,
+      "re": -0.5535764491082967,
+      "im": 36.50631448285492,
+      "abs_u": 36.51051141803015,
+      "absH_stored": 6.325265274571986e-43,
+      "nearest_step24_dist": 0.3509770800267314,
+      "nearest_node": {
+        "re": -0.5359334921128905,
+        "im": 36.49170350767624
+      },
+      "node_dist_from_zero": 0.022907521193129107,
+      "node_valid": true,
+      "node_Habs": 0.4578506127273295,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 207,
+      "re": 35.81270326494452,
+      "im": 7.2500761683090555,
+      "abs_u": 36.539202503465376,
+      "absH_stored": 2.940105538993537e-41,
+      "nearest_step24_dist": 1.107075048431419,
+      "nearest_node": {
+        "re": 35.79739984122044,
+        "im": 7.241703507676249
+      },
+      "node_dist_from_zero": 0.01744408850444207,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 208,
+      "re": 36.62424641894072,
+      "im": 0.5624864592944551,
+      "abs_u": 36.628565584420336,
+      "absH_stored": 6.750758356555244e-42,
+      "nearest_step24_dist": 0.6045934873561762,
+      "nearest_node": {
+        "re": 36.630733174553775,
+        "im": 0.5750368410095825
+      },
+      "node_dist_from_zero": 0.014127635314478108,
+      "node_valid": true,
+      "node_Habs": 2.463354659829396,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 209,
+      "re": 33.93900009379596,
+      "im": 14.19034440975379,
+      "abs_u": 36.786160466051804,
+      "absH_stored": 1.3838595751857323e-41,
+      "nearest_step24_dist": 0.8630649279137685,
+      "nearest_node": {
+        "re": 33.92239984122044,
+        "im": 14.200036841009583
+      },
+      "node_dist_from_zero": 0.019222684755761686,
+      "node_valid": true,
+      "node_Habs": 0.9150547158995602,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 212,
+      "re": 36.625811824142055,
+      "im": 4.56015039744667,
+      "abs_u": 36.90860419231262,
+      "absH_stored": 2.1637710051018116e-42,
+      "nearest_step24_dist": 0.4738276776569519,
+      "nearest_node": {
+        "re": 36.630733174553775,
+        "im": 4.575036841009582
+      },
+      "node_dist_from_zero": 0.015678835793090304,
+      "node_valid": true,
+      "node_Habs": 1.0439539907345528,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 213,
+      "re": 33.87478058475937,
+      "im": 14.749883518257361,
+      "abs_u": 36.94671600383112,
+      "absH_stored": 2.307427009420319e-41,
+      "nearest_step24_dist": 1.41518043008538,
+      "nearest_node": {
+        "re": 33.880733174553775,
+        "im": 14.741703507676249
+      },
+      "node_dist_from_zero": 0.010116614965864497,
+      "node_valid": true,
+      "node_Habs": 1.4113146401780736,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 214,
+      "re": 0.321573733160562,
+      "im": 37.058688575764705,
+      "abs_u": 37.0600837643599,
+      "absH_stored": 1.2178757411677757e-42,
+      "nearest_step24_dist": 0.22444871878771977,
+      "nearest_node": {
+        "re": 0.33906650788710935,
+        "im": 37.07503684100958
+      },
+      "node_dist_from_zero": 0.02394291010195768,
+      "node_valid": true,
+      "node_Habs": 0.3620133755314293,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 216,
+      "re": -9.37735505634014,
+      "im": 35.94081686488823,
+      "abs_u": 37.144004964032916,
+      "absH_stored": 3.541578053069555e-42,
+      "nearest_step24_dist": 0.09257662149669699,
+      "nearest_node": {
+        "re": -9.369266825446225,
+        "im": 35.95003684100958
+      },
+      "node_dist_from_zero": 0.0122648864108703,
+      "node_valid": true,
+      "node_Habs": 0.39688774665029386,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 219,
+      "re": 35.43486078167861,
+      "im": 11.939754300425399,
+      "abs_u": 37.392340009305,
+      "absH_stored": 5.190191316242805e-42,
+      "nearest_step24_dist": 0.5828136707675284,
+      "nearest_node": {
+        "re": 35.42239984122044,
+        "im": 11.950036841009583
+      },
+      "node_dist_from_zero": 0.016155670149127832,
+      "node_valid": true,
+      "node_Habs": 0.4574221991749159,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 221,
+      "re": -12.809255082889434,
+      "im": 35.44018680075554,
+      "abs_u": 37.68400000333001,
+      "absH_stored": 1.466189330975144e-41,
+      "nearest_step24_dist": 0.17680398198739056,
+      "nearest_node": {
+        "re": -12.827600158779557,
+        "im": 35.45003684100958
+      },
+      "node_dist_from_zero": 0.020822226163897648,
+      "node_valid": true,
+      "node_Habs": 1.1285374210511865,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 224,
+      "re": 37.441712051068535,
+      "im": 5.763442812822439,
+      "abs_u": 37.88270151892293,
+      "absH_stored": 4.2353634096795454e-42,
+      "nearest_step24_dist": 0.47579607632782484,
+      "nearest_node": {
+        "re": 37.42239984122044,
+        "im": 5.783370174342916
+      },
+      "node_dist_from_zero": 0.027749976331244944,
+      "node_valid": true,
+      "node_Habs": 0.3357721721203062,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 227,
+      "re": -9.992359387615206,
+      "im": 36.63478997487234,
+      "abs_u": 37.973083659801304,
+      "absH_stored": 1.896018098519704e-42,
+      "nearest_step24_dist": 0.15416731929375516,
+      "nearest_node": {
+        "re": -9.994266825446225,
+        "im": 36.61670350767624
+      },
+      "node_dist_from_zero": 0.01818677032116382,
+      "node_valid": true,
+      "node_Habs": 0.2007191166012924,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 228,
+      "re": -24.06120672106359,
+      "im": 29.625836758657623,
+      "abs_u": 38.165846938387006,
+      "absH_stored": 7.425329066977949e-41,
+      "nearest_step24_dist": 2.39195357089627,
+      "nearest_node": {
+        "re": -24.077600158779557,
+        "im": 29.61670350767625
+      },
+      "node_dist_from_zero": 0.018765955175157573,
+      "node_valid": true,
+      "node_Habs": 1.0951310193200767,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 229,
+      "re": 0.4980271559352749,
+      "im": 38.251454627372595,
+      "abs_u": 38.2546966026133,
+      "absH_stored": 1.33015114241828e-41,
+      "nearest_step24_dist": 0.36778738965756996,
+      "nearest_node": {
+        "re": 0.5057331745537761,
+        "im": 38.24170350767624
+      },
+      "node_dist_from_zero": 0.012428477713755031,
+      "node_valid": true,
+      "node_Habs": 1.057138546147875,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 231,
+      "re": 2.0624959244874073,
+      "im": 38.37610964577659,
+      "abs_u": 38.431493348336,
+      "absH_stored": 4.2226495819560373e-42,
+      "nearest_step24_dist": 0.09900953427199055,
+      "nearest_node": {
+        "re": 2.0473998412204426,
+        "im": 38.36670350767624
+      },
+      "node_dist_from_zero": 0.017786713129915373,
+      "node_valid": true,
+      "node_Habs": 0.7514630743412783,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 233,
+      "re": 38.125057883923006,
+      "im": 6.060949040793151,
+      "abs_u": 38.603822892656254,
+      "absH_stored": 1.293348474051964e-42,
+      "nearest_step24_dist": 0.18210821501164176,
+      "nearest_node": {
+        "re": 38.130733174553775,
+        "im": 6.075036841009582
+      },
+      "node_dist_from_zero": 0.015187989948698523,
+      "node_valid": true,
+      "node_Habs": 0.284843010681815,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 234,
+      "re": 31.937446409374505,
+      "im": 21.875166310222752,
+      "abs_u": 38.71076574096117,
+      "absH_stored": 2.3230578725305786e-41,
+      "nearest_step24_dist": 0.47225111789492047,
+      "nearest_node": {
+        "re": 31.92239984122044,
+        "im": 21.86670350767625
+      },
+      "node_dist_from_zero": 0.01726320480548323,
+      "node_valid": true,
+      "node_Habs": 1.0484048856720887,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 235,
+      "re": -11.498763877976039,
+      "im": 37.00164113238347,
+      "abs_u": 38.74716786051774,
+      "absH_stored": 6.623336932442188e-42,
+      "nearest_step24_dist": 0.07427831723575196,
+      "nearest_node": {
+        "re": -11.494266825446225,
+        "im": 36.99170350767624
+      },
+      "node_dist_from_zero": 0.010907789247945622,
+      "node_valid": true,
+      "node_Habs": 0.6201980604564573,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 237,
+      "re": 1.3757754823995878,
+      "im": 38.75103052883423,
+      "abs_u": 38.77544487461897,
+      "absH_stored": 9.407789962100156e-42,
+      "nearest_step24_dist": 0.38506835188415156,
+      "nearest_node": {
+        "re": 1.380733174553776,
+        "im": 38.74170350767624
+      },
+      "node_dist_from_zero": 0.010562766454732628,
+      "node_valid": true,
+      "node_Habs": 1.2099273449331447,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 239,
+      "re": -12.374235528913536,
+      "im": 36.8743657267258,
+      "abs_u": 38.89525102982826,
+      "absH_stored": 2.478086528082565e-42,
+      "nearest_step24_dist": 0.7950596629087361,
+      "nearest_node": {
+        "re": -12.369266825446225,
+        "im": 36.86670350767624
+      },
+      "node_dist_from_zero": 0.0091322294599655,
+      "node_valid": true,
+      "node_Habs": 0.8707729481432166,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 241,
+      "re": 36.81332238925681,
+      "im": 12.999749410284362,
+      "abs_u": 39.041185817871174,
+      "absH_stored": 3.394591364478842e-41,
+      "nearest_step24_dist": 1.6450471625255858,
+      "nearest_node": {
+        "re": 36.79739984122044,
+        "im": 12.991703507676249
+      },
+      "node_dist_from_zero": 0.017839957532175117,
+      "node_valid": true,
+      "node_Habs": 1.0788748299899562,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 242,
+      "re": 38.68600708493181,
+      "im": 5.254719326595252,
+      "abs_u": 39.041250228145714,
+      "absH_stored": 5.0350519816202664e-42,
+      "nearest_step24_dist": 0.9883379292095409,
+      "nearest_node": {
+        "re": 38.67239984122044,
+        "im": 5.241703507676249
+      },
+      "node_dist_from_zero": 0.018829992659395473,
+      "node_valid": true,
+      "node_Habs": 0.9051286737856494,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 243,
+      "re": 38.55886749111755,
+      "im": 6.249686846920596,
+      "abs_u": 39.06206405045865,
+      "absH_stored": 4.037120876010839e-43,
+      "nearest_step24_dist": 0.3883118243977748,
+      "nearest_node": {
+        "re": 38.54739984122044,
+        "im": 6.241703507676249
+      },
+      "node_dist_from_zero": 0.013972855815942176,
+      "node_valid": true,
+      "node_Habs": 0.6693479325288297,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 246,
+      "re": -12.308899222553686,
+      "im": 37.37634799515747,
+      "abs_u": 39.35098968928347,
+      "absH_stored": 3.249362552509518e-42,
+      "nearest_step24_dist": 0.7387265187719834,
+      "nearest_node": {
+        "re": -12.327600158779557,
+        "im": 37.36670350767624
+      },
+      "node_dist_from_zero": 0.021041415220930323,
+      "node_valid": true,
+      "node_Habs": 0.40836469861637864,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 247,
+      "re": 2.000076699891696,
+      "im": 39.3115522661652,
+      "abs_u": 39.36239891547373,
+      "absH_stored": 2.7954785590825845e-41,
+      "nearest_step24_dist": 0.0778343962812349,
+      "nearest_node": {
+        "re": 2.005733174553776,
+        "im": 39.32503684100958
+      },
+      "node_dist_from_zero": 0.014622908887644304,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 249,
+      "re": 36.12523045401161,
+      "im": 15.686246352124753,
+      "abs_u": 39.383887568077824,
+      "absH_stored": 1.7805133106305374e-41,
+      "nearest_step24_dist": 0.4106032917119009,
+      "nearest_node": {
+        "re": 36.130733174553775,
+        "im": 15.700036841009583
+      },
+      "node_dist_from_zero": 0.0148478118606012,
+      "node_valid": true,
+      "node_Habs": 1.5231876259031651,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 250,
+      "re": 0.9985206289177497,
+      "im": 39.50065371692241,
+      "abs_u": 39.51327229565517,
+      "absH_stored": 2.1042682192366793e-41,
+      "nearest_step24_dist": 0.4092888944451212,
+      "nearest_node": {
+        "re": 1.005733174553776,
+        "im": 39.49170350767624
+      },
+      "node_dist_from_zero": 0.01149465354423149,
+      "node_valid": true,
+      "node_Habs": 1.3550238975408948,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 253,
+      "re": 37.1236249811775,
+      "im": 15.874674054166585,
+      "abs_u": 40.37534901482755,
+      "absH_stored": 1.2720039712544462e-41,
+      "nearest_step24_dist": 0.04530151702973484,
+      "nearest_node": {
+        "re": 37.130733174553775,
+        "im": 15.866703507676249
+      },
+      "node_dist_from_zero": 0.010679701514046807,
+      "node_valid": true,
+      "node_Habs": 0.9801993455175009,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 254,
+      "re": -5.997115701185916,
+      "im": 40.05449192475125,
+      "abs_u": 40.50095949583631,
+      "absH_stored": 1.0517954294262344e-42,
+      "nearest_step24_dist": 0.3627974695506708,
+      "nearest_node": {
+        "re": -5.994266825446224,
+        "im": 40.07503684100958
+      },
+      "node_dist_from_zero": 0.02074149649957852,
+      "node_valid": true,
+      "node_Habs": 0.23633249489984162,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 255,
+      "re": 1.2510957523344102,
+      "im": 40.81740300679815,
+      "abs_u": 40.83657219700111,
+      "absH_stored": 5.026489513778823e-42,
+      "nearest_step24_dist": 0.5376129725481036,
+      "nearest_node": {
+        "re": 1.255733174553776,
+        "im": 40.82503684100958
+      },
+      "node_dist_from_zero": 0.008932027183579268,
+      "node_valid": true,
+      "node_Habs": 0.30904520806120434,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 257,
+      "re": 40.81237363237304,
+      "im": 3.624727742559414,
+      "abs_u": 40.97302152290087,
+      "absH_stored": 8.528019377212263e-41,
+      "nearest_step24_dist": 1.5685035021686886,
+      "nearest_node": {
+        "re": 40.79739984122044,
+        "im": 3.616703507676249
+      },
+      "node_dist_from_zero": 0.01698831265729041,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 259,
+      "re": -9.314709541835871,
+      "im": 40.43245327889014,
+      "abs_u": 41.49153036462263,
+      "absH_stored": 1.7154676496217033e-42,
+      "nearest_step24_dist": 0.11250093181042864,
+      "nearest_node": {
+        "re": -9.327600158779557,
+        "im": 40.45003684100958
+      },
+      "node_dist_from_zero": 0.0218025150383409,
+      "node_valid": true,
+      "node_Habs": 0.4139693936092447,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 262,
+      "re": -7.627837698226953,
+      "im": 40.87327046361808,
+      "abs_u": 41.57893873516454,
+      "absH_stored": 5.433956689142306e-42,
+      "nearest_step24_dist": 0.14467410428891814,
+      "nearest_node": {
+        "re": -7.619266825446224,
+        "im": 40.86670350767624
+      },
+      "node_dist_from_zero": 0.010797442778984803,
+      "node_valid": true,
+      "node_Habs": 0.5478810361884943,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 263,
+      "re": -7.4382682118544885,
+      "im": 40.93740507026201,
+      "abs_u": 41.607679193607986,
+      "absH_stored": 6.886439437388706e-43,
+      "nearest_step24_dist": 0.33424359066138276,
+      "nearest_node": {
+        "re": -7.452600158779557,
+        "im": 40.95003684100958
+      },
+      "node_dist_from_zero": 0.019104092097822635,
+      "node_valid": true,
+      "node_Habs": 1.3147624942188505,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 265,
+      "re": 38.24931203656378,
+      "im": 16.437862286051555,
+      "abs_u": 41.63187706320265,
+      "absH_stored": 7.109891972014937e-43,
+      "nearest_step24_dist": 0.3868825779315941,
+      "nearest_node": {
+        "re": 38.255733174553775,
+        "im": 16.45003684100958
+      },
+      "node_dist_from_zero": 0.013764112812403365,
+      "node_valid": true,
+      "node_Habs": 0.9146410856818917,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 266,
+      "re": -27.061633143094344,
+      "im": 31.749193066138435,
+      "abs_u": 41.71742140547945,
+      "absH_stored": 1.5199228389055816e-41,
+      "nearest_step24_dist": 0.4759279723480603,
+      "nearest_node": {
+        "re": -27.077600158779557,
+        "im": 31.74170350767625
+      },
+      "node_dist_from_zero": 0.017636299947844623,
+      "node_valid": true,
+      "node_Habs": 0.7978068803518586,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 267,
+      "re": -9.003843311121928,
+      "im": 40.759055864356945,
+      "abs_u": 41.74170371852358,
+      "absH_stored": 1.0784985240049703e-42,
+      "nearest_step24_dist": 0.25603484766357987,
+      "nearest_node": {
+        "re": -8.994266825446225,
+        "im": 40.74170350767624
+      },
+      "node_dist_from_zero": 0.01981951967811791,
+      "node_valid": true,
+      "node_Habs": 0.3534264276697349,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 268,
+      "re": -29.99965854252547,
+      "im": 29.06215986132115,
+      "abs_u": 41.76827322829024,
+      "absH_stored": 5.183245290521503e-41,
+      "nearest_step24_dist": 0.8757746104944424,
+      "nearest_node": {
+        "re": -29.994266825446225,
+        "im": 29.07503684100958
+      },
+      "node_dist_from_zero": 0.013960201250659542,
+      "node_valid": true,
+      "node_Habs": 2.030312413584156,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 273,
+      "re": -7.936025813338547,
+      "im": 41.1906535770316,
+      "abs_u": 41.94818765826483,
+      "absH_stored": 6.6085372411607e-43,
+      "nearest_step24_dist": 0.20467881544798416,
+      "nearest_node": {
+        "re": -7.952600158779557,
+        "im": 41.20003684100958
+      },
+      "node_dist_from_zero": 0.019046116918637414,
+      "node_valid": true,
+      "node_Habs": 0.25125068587626687,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 277,
+      "re": 0.5627840092130765,
+      "im": 42.308694139466695,
+      "abs_u": 42.312437008850836,
+      "absH_stored": 2.874713396268856e-42,
+      "nearest_step24_dist": 0.37004900162592935,
+      "nearest_node": {
+        "re": 0.5473998412204427,
+        "im": 42.32503684100958
+      },
+      "node_dist_from_zero": 0.022444520902556702,
+      "node_valid": true,
+      "node_Habs": 0.6669961287034478,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 278,
+      "re": 41.31286655545438,
+      "im": 10.00023019863712,
+      "abs_u": 42.50597072241163,
+      "absH_stored": 2.1574465890847827e-41,
+      "nearest_step24_dist": 0.09079135107971759,
+      "nearest_node": {
+        "re": 41.29739984122044,
+        "im": 9.991703507676249
+      },
+      "node_dist_from_zero": 0.01766136200683527,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 282,
+      "re": 42.629406611873584,
+      "im": 2.559119806322602,
+      "abs_u": 42.7061518081829,
+      "absH_stored": 1.6187151234106047e-42,
+      "nearest_step24_dist": 0.20744186508096618,
+      "nearest_node": {
+        "re": 42.630733174553775,
+        "im": 2.5750368410095823
+      },
+      "node_dist_from_zero": 0.015972218436116244,
+      "node_valid": true,
+      "node_Habs": 0.28649062151045673,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 283,
+      "re": 42.69527908345951,
+      "im": 1.7502368762184692,
+      "abs_u": 42.731138355271675,
+      "absH_stored": 5.113141020610148e-42,
+      "nearest_step24_dist": 0.40818832157298934,
+      "nearest_node": {
+        "re": 42.714066507887104,
+        "im": 1.7417035076762493
+      },
+      "node_dist_from_zero": 0.02063457523914351,
+      "node_valid": true,
+      "node_Habs": 0.456726056008142,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 284,
+      "re": -9.372088185393508,
+      "im": 41.75082794828045,
+      "abs_u": 42.78980803090508,
+      "absH_stored": 2.100337347204359e-42,
+      "nearest_step24_dist": 0.08912475322746971,
+      "nearest_node": {
+        "re": -9.369266825446225,
+        "im": 41.74170350767624
+      },
+      "node_dist_from_zero": 0.009550679991074267,
+      "node_valid": true,
+      "node_Habs": 0.505752293777173,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 287,
+      "re": -0.8029965468384384,
+      "im": 42.93898181552234,
+      "abs_u": 42.94648952834204,
+      "absH_stored": 6.7734473335306606e-43,
+      "nearest_step24_dist": 0.11675896375993022,
+      "nearest_node": {
+        "re": -0.7859334921128905,
+        "im": 42.95003684100958
+      },
+      "node_dist_from_zero": 0.020331291771319385,
+      "node_valid": true,
+      "node_Habs": 0.32988507592790656,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 288,
+      "re": 42.25023143554519,
+      "im": 9.50018602632985,
+      "abs_u": 43.30514508568241,
+      "absH_stored": 6.796698111894072e-42,
+      "nearest_step24_dist": 0.5321658703592362,
+      "nearest_node": {
+        "re": 42.255733174553775,
+        "im": 9.491703507676249
+      },
+      "node_dist_from_zero": 0.01011050220450442,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 289,
+      "re": 2.2499305069578552,
+      "im": 43.250067550461104,
+      "abs_u": 43.30855031521591,
+      "absH_stored": 1.0358680796383637e-40,
+      "nearest_step24_dist": 0.5434119203618555,
+      "nearest_node": {
+        "re": 2.255733174553776,
+        "im": 43.24170350767624
+      },
+      "node_dist_from_zero": 0.010179791890591585,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 290,
+      "re": -29.878739087899824,
+      "im": 31.62651174195365,
+      "abs_u": 43.508335919071015,
+      "absH_stored": 3.342147058655458e-42,
+      "nearest_step24_dist": 1.3671353384522256,
+      "nearest_node": {
+        "re": -29.869266825446225,
+        "im": 31.61670350767625
+      },
+      "node_dist_from_zero": 0.013635439693322617,
+      "node_valid": true,
+      "node_Habs": 0.20551670561888857,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 291,
+      "re": 38.31205121804804,
+      "im": 20.94007094597936,
+      "abs_u": 43.66119375093844,
+      "absH_stored": 6.716462577380599e-42,
+      "nearest_step24_dist": 0.4891797754067291,
+      "nearest_node": {
+        "re": 38.29739984122044,
+        "im": 20.95003684100958
+      },
+      "node_dist_from_zero": 0.01771953460725541,
+      "node_valid": true,
+      "node_Habs": 14.863721702607886,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 294,
+      "re": -23.811774249147643,
+      "im": 37.06259309710553,
+      "abs_u": 44.05265485727262,
+      "absH_stored": 7.926702467603304e-41,
+      "nearest_step24_dist": 0.3493060945919737,
+      "nearest_node": {
+        "re": -23.827600158779557,
+        "im": 37.07503684100958
+      },
+      "node_dist_from_zero": 0.020132217414559943,
+      "node_valid": true,
+      "node_Habs": 0.7745787741099296,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 295,
+      "re": 2.753740745559181,
+      "im": 44.127611684232726,
+      "abs_u": 44.21345045399856,
+      "absH_stored": 8.793230203057362e-42,
+      "nearest_step24_dist": 0.34112992399764863,
+      "nearest_node": {
+        "re": 2.755733174553776,
+        "im": 44.11670350767624
+      },
+      "node_dist_from_zero": 0.011088646855497082,
+      "node_valid": true,
+      "node_Habs": 0.28311900215604147,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 297,
+      "re": 43.4377323860791,
+      "im": 9.312545415120052,
+      "abs_u": 44.42476895779311,
+      "absH_stored": 1.7193736315963127e-42,
+      "nearest_step24_dist": 0.926580646724311,
+      "nearest_node": {
+        "re": 43.42239984122044,
+        "im": 9.325036841009583
+      },
+      "node_dist_from_zero": 0.01977682109431166,
+      "node_valid": true,
+      "node_Habs": 0.6697919325310978,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 298,
+      "re": 38.00029262275074,
+      "im": 23.06258176194831,
+      "abs_u": 44.451152031654196,
+      "absH_stored": 3.053961670730993e-41,
+      "nearest_step24_dist": 0.7971540812529412,
+      "nearest_node": {
+        "re": 38.005733174553775,
+        "im": 23.07503684100958
+      },
+      "node_dist_from_zero": 0.013591489923626323,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 302,
+      "re": -8.563081502246403,
+      "im": 43.87519671154235,
+      "abs_u": 44.70301165794818,
+      "absH_stored": 4.777509438640446e-41,
+      "nearest_step24_dist": 0.3479842068819128,
+      "nearest_node": {
+        "re": -8.577600158779557,
+        "im": 43.86670350767624
+      },
+      "node_dist_from_zero": 0.016820401286502872,
+      "node_valid": true,
+      "node_Habs": 2.1471265293882436,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 304,
+      "re": -2.384012069559134,
+      "im": 45.182840120514285,
+      "abs_u": 45.24569100924152,
+      "absH_stored": 3.797685858110224e-43,
+      "nearest_step24_dist": 0.21646909733815445,
+      "nearest_node": {
+        "re": -2.369266825446224,
+        "im": 45.20003684100958
+      },
+      "node_dist_from_zero": 0.022652801587055467,
+      "node_valid": true,
+      "node_Habs": 0.34495925076691963,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 305,
+      "re": -7.053965503930233,
+      "im": 44.869303339508775,
+      "abs_u": 45.420400829401444,
+      "absH_stored": 1.7146956110647855e-42,
+      "nearest_step24_dist": 0.20613834850742307,
+      "nearest_node": {
+        "re": -7.03593349211289,
+        "im": 44.86670350767624
+      },
+      "node_dist_from_zero": 0.0182184679854884,
+      "node_valid": true,
+      "node_Habs": 0.20331830005124013,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 307,
+      "re": -35.13378915872302,
+      "im": 29.12670381919241,
+      "abs_u": 45.637134178435886,
+      "absH_stored": 1.5451832949708987e-41,
+      "nearest_step24_dist": 2.196361134802409,
+      "nearest_node": {
+        "re": -35.119266825446225,
+        "im": 29.11670350767625
+      },
+      "node_dist_from_zero": 0.017632481227058287,
+      "node_valid": true,
+      "node_Habs": 0.38173899400215894,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 308,
+      "re": -11.437390589594937,
+      "im": 44.24984787185036,
+      "abs_u": 45.70408012618627,
+      "absH_stored": 6.695070060441134e-41,
+      "nearest_step24_dist": 0.5335334008951946,
+      "nearest_node": {
+        "re": -11.452600158779557,
+        "im": 44.24170350767624
+      },
+      "node_dist_from_zero": 0.01725287403832927,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 309,
+      "re": 45.743746757778595,
+      "im": 0.0,
+      "abs_u": 45.743746757778595,
+      "absH_stored": 3.804133013130959e-42,
+      "nearest_step24_dist": 1.1569508003805067,
+      "nearest_node": {
+        "re": 45.755733174553775,
+        "im": -0.008296492323750723
+      },
+      "node_dist_from_zero": 0.01457758457311672,
+      "node_valid": true,
+      "node_Habs": 0.42825758459968494,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 310,
+      "re": 14.999510733407615,
+      "im": 43.312421500595256,
+      "abs_u": 45.83613398277429,
+      "absH_stored": 1.5945496816600028e-41,
+      "nearest_step24_dist": 1.3623506163680332,
+      "nearest_node": {
+        "re": 15.005733174553775,
+        "im": 43.32503684100958
+      },
+      "node_dist_from_zero": 0.014066470331488064,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 311,
+      "re": 6.873390118164883,
+      "im": 45.373657140070854,
+      "abs_u": 45.89130913344257,
+      "absH_stored": 5.262324043150673e-42,
+      "nearest_step24_dist": 0.4091152276502905,
+      "nearest_node": {
+        "re": 6.880733174553776,
+        "im": 45.36670350767624
+      },
+      "node_dist_from_zero": 0.010113035182865179,
+      "node_valid": true,
+      "node_Habs": 0.750161971995595,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 312,
+      "re": 6.999676256563957,
+      "im": 45.43418744413086,
+      "abs_u": 45.970217058494775,
+      "absH_stored": 1.7167491548428065e-41,
+      "nearest_step24_dist": 0.5354013660493644,
+      "nearest_node": {
+        "re": 7.005733174553776,
+        "im": 45.45003684100958
+      },
+      "node_dist_from_zero": 0.01696731083449554,
+      "node_valid": true,
+      "node_Habs": 1.0276749566359504,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 313,
+      "re": -13.12425495856711,
+      "im": 44.06221923292839,
+      "abs_u": 45.97526761148996,
+      "absH_stored": 8.771206534426024e-42,
+      "nearest_step24_dist": 0.2447400349265063,
+      "nearest_node": {
+        "re": -13.119266825446225,
+        "im": 44.07503684100958
+      },
+      "node_dist_from_zero": 0.01375400119799871,
+      "node_valid": true,
+      "node_Habs": 1.1104347213709602,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 314,
+      "re": 43.99999761972889,
+      "im": 13.625223042053271,
+      "abs_u": 46.0613340393203,
+      "absH_stored": 1.399865408268566e-41,
+      "nearest_step24_dist": 0.7555072312893074,
+      "nearest_node": {
+        "re": 44.005733174553775,
+        "im": 13.616703507676249
+      },
+      "node_dist_from_zero": 0.010270299662159815,
+      "node_valid": true,
+      "node_Habs": 1.2723887288038165,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 315,
+      "re": 5.377540979378841,
+      "im": 45.938977404940296,
+      "abs_u": 46.25264956731142,
+      "absH_stored": 4.754568039463103e-42,
+      "nearest_step24_dist": 0.1640652752959051,
+      "nearest_node": {
+        "re": 5.380733174553776,
+        "im": 45.95003684100958
+      },
+      "node_dist_from_zero": 0.011510918130427485,
+      "node_valid": true,
+      "node_Habs": 0.46056507531698415,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 316,
+      "re": 4.310154264708609,
+      "im": 46.87416281550999,
+      "abs_u": 47.07190849583779,
+      "absH_stored": 5.135185766905511e-42,
+      "nearest_step24_dist": 0.05051111637585848,
+      "nearest_node": {
+        "re": 4.297399841220442,
+        "im": 46.86670350767624
+      },
+      "node_dist_from_zero": 0.014775540324269552,
+      "node_valid": true,
+      "node_Habs": 0.6234133878158206,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 317,
+      "re": 6.749760182622269,
+      "im": 46.74906389286009,
+      "abs_u": 47.23382514027027,
+      "absH_stored": 1.2987640635874954e-42,
+      "nearest_step24_dist": 0.2852151655674504,
+      "nearest_node": {
+        "re": 6.755733174553776,
+        "im": 46.74170350767624
+      },
+      "node_dist_from_zero": 0.009479024352142519,
+      "node_valid": true,
+      "node_Habs": 0.8907446262501534,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 318,
+      "re": -6.500022458091784,
+      "im": 46.93735926303978,
+      "abs_u": 47.38529293508023,
+      "absH_stored": 1.3917954217446906e-40,
+      "nearest_step24_dist": 0.4521616474624821,
+      "nearest_node": {
+        "re": -6.494266825446224,
+        "im": 46.95003684100958
+      },
+      "node_dist_from_zero": 0.013922941152317717,
+      "node_valid": true,
+      "node_Habs": 2.387600792999026,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 319,
+      "re": 7.182883226766244,
+      "im": 46.94108605929583,
+      "abs_u": 47.48746541852467,
+      "absH_stored": 4.835475366455093e-42,
+      "nearest_step24_dist": 0.27102936053598015,
+      "nearest_node": {
+        "re": 7.172399841220442,
+        "im": 46.95003684100958
+      },
+      "node_dist_from_zero": 0.01378469679714208,
+      "node_valid": true,
+      "node_Habs": 0.2681847634308017,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 320,
+      "re": 7.874510564720166,
+      "im": 47.000102696491524,
+      "abs_u": 47.655194576401,
+      "absH_stored": 8.113177318414378e-41,
+      "nearest_step24_dist": 0.9626566984899014,
+      "nearest_node": {
+        "re": 7.880733174553776,
+        "im": 46.99170350767624
+      },
+      "node_dist_from_zero": 0.010453097430719253,
+      "node_valid": true,
+      "node_Habs": 0.4778705931101361,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 321,
+      "re": 7.132441367762986,
+      "im": 47.18717440522625,
+      "abs_u": 47.7231720259018,
+      "absH_stored": 6.869008647751461e-42,
+      "nearest_step24_dist": 0.2205875015327221,
+      "nearest_node": {
+        "re": 7.130733174553776,
+        "im": 47.20003684100958
+      },
+      "node_dist_from_zero": 0.012975368138136874,
+      "node_valid": true,
+      "node_Habs": 0.4069377283869164,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 322,
+      "re": 7.562155283893735,
+      "im": 47.31383009858655,
+      "abs_u": 47.91434765428448,
+      "absH_stored": 2.0672283040026607e-41,
+      "nearest_step24_dist": 0.6503014176634707,
+      "nearest_node": {
+        "re": 7.547399841220442,
+        "im": 47.32503684100958
+      },
+      "node_dist_from_zero": 0.018528738872921557,
+      "node_valid": true,
+      "node_Habs": 0.8064628086130666,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 323,
+      "re": -25.18750263330523,
+      "im": 41.25022003776328,
+      "abs_u": 48.33209018930016,
+      "absH_stored": 2.662122934339179e-40,
+      "nearest_step24_dist": 1.9909162901573723,
+      "nearest_node": {
+        "re": -25.202600158779557,
+        "im": 41.24170350767624
+      },
+      "node_dist_from_zero": 0.017333971275255065,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 324,
+      "re": 13.060313196867952,
+      "im": 46.68541251808528,
+      "abs_u": 48.477825062435265,
+      "absH_stored": 1.239464152868649e-41,
+      "nearest_step24_dist": 0.6520373877572609,
+      "nearest_node": {
+        "re": 13.047399841220441,
+        "im": 46.70003684100958
+      },
+      "node_dist_from_zero": 0.019509627753323648,
+      "node_valid": true,
+      "node_Habs": 0.5435369113359099,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 325,
+      "re": -34.93541796245415,
+      "im": 33.816813505797285,
+      "abs_u": 48.62160326333591,
+      "absH_stored": 2.008465593502137e-41,
+      "nearest_step24_dist": 0.6368645408516471,
+      "nearest_node": {
+        "re": -34.95260015877955,
+        "im": 33.82503684100958
+      },
+      "node_dist_from_zero": 0.019048651201025654,
+      "node_valid": true,
+      "node_Habs": 0.5764537185997217,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 327,
+      "re": -24.499992754609387,
+      "im": 43.43747533658335,
+      "abs_u": 49.87047130910434,
+      "absH_stored": 2.6364121278538514e-40,
+      "nearest_step24_dist": 0.32944906819178144,
+      "nearest_node": {
+        "re": -24.494266825446225,
+        "im": 43.45003684100958
+      },
+      "node_dist_from_zero": 0.013804986716102233,
+      "node_valid": true,
+      "node_Habs": 1.3638693797684975,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 328,
+      "re": -29.572178403667923,
+      "im": 40.18012726556114,
+      "abs_u": 49.88944139409714,
+      "absH_stored": 1.0723218242356975e-42,
+      "nearest_step24_dist": 0.2209676804423708,
+      "nearest_node": {
+        "re": -29.577600158779557,
+        "im": 40.20003684100958
+      },
+      "node_dist_from_zero": 0.020634597719062835,
+      "node_valid": true,
+      "node_Habs": 0.2518812391074783,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 329,
+      "re": 13.869111635311759,
+      "im": 47.99803805809861,
+      "abs_u": 49.96162442294508,
+      "absH_stored": 1.9476330079909555e-42,
+      "nearest_step24_dist": 1.6366271076589225,
+      "nearest_node": {
+        "re": 13.880733174553775,
+        "im": 47.99170350767624
+      },
+      "node_dist_from_zero": 0.013235811399654478,
+      "node_valid": true,
+      "node_Habs": 0.24876588088551746,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 330,
+      "re": -30.0583845671298,
+      "im": 40.16973731782578,
+      "abs_u": 50.17085088942176,
+      "absH_stored": 3.598752202832664e-42,
+      "nearest_step24_dist": 0.26436709421633964,
+      "nearest_node": {
+        "re": -30.077600158779557,
+        "im": 40.15837017434291
+      },
+      "node_dist_from_zero": 0.022326014275061853,
+      "node_valid": true,
+      "node_Habs": 0.24152838787613853,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 331,
+      "re": -36.68365332759745,
+      "im": 34.741384687235325,
+      "abs_u": 50.52379866405356,
+      "absH_stored": 6.861543569504802e-42,
+      "nearest_step24_dist": 1.5668071962438859,
+      "nearest_node": {
+        "re": -36.70260015877955,
+        "im": 34.74170350767624
+      },
+      "node_dist_from_zero": 0.018949513405804606,
+      "node_valid": true,
+      "node_Habs": 0.2133874675129495,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 334,
+      "re": -35.43199223697222,
+      "im": 37.80640023675448,
+      "abs_u": 51.814572976552924,
+      "absH_stored": 9.928556147293012e-43,
+      "nearest_step24_dist": 3.272388170534228,
+      "nearest_node": {
+        "re": -35.45260015877955,
+        "im": 37.82503684100958
+      },
+      "node_dist_from_zero": 0.02778505820361644,
+      "node_valid": true,
+      "node_Habs": 0.5526643883325342,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 336,
+      "re": -27.062713990891332,
+      "im": 44.67961862748816,
+      "abs_u": 52.23656582558402,
+      "absH_stored": 8.982086748327501e-42,
+      "nearest_step24_dist": 0.3173620047428365,
+      "nearest_node": {
+        "re": -27.077600158779557,
+        "im": 44.70003684100958
+      },
+      "node_dist_from_zero": 0.02526858598739915,
+      "node_valid": true,
+      "node_Habs": 0.5904639044916905,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 337,
+      "re": -24.93494413107917,
+      "im": 45.94016994367441,
+      "abs_u": 52.27093507173681,
+      "absH_stored": 1.425785501593339e-41,
+      "nearest_step24_dist": 0.1006680242503144,
+      "nearest_node": {
+        "re": -24.952600158779557,
+        "im": 45.95003684100958
+      },
+      "node_dist_from_zero": 0.020225997557092285,
+      "node_valid": true,
+      "node_Habs": 0.4150997775342653,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 338,
+      "re": 47.187509456184074,
+      "im": 23.625021379178854,
+      "abs_u": 52.771229698047776,
+      "absH_stored": 2.0549274919903824e-40,
+      "nearest_step24_dist": 5.96694931564145,
+      "nearest_node": {
+        "re": 47.17239984122044,
+        "im": 23.61670350767625
+      },
+      "node_dist_from_zero": 0.017247824520302192,
+      "node_valid": false,
+      "node_Habs": null,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_invalid_node"
+    },
+    {
+      "orig_idx": 339,
+      "re": -26.745712662381997,
+      "im": 45.55989153608484,
+      "abs_u": 52.83026464630398,
+      "absH_stored": 4.091284546536043e-42,
+      "nearest_step24_dist": 0.29435344330718394,
+      "nearest_node": {
+        "re": -26.744266825446225,
+        "im": 45.57503684100958
+      },
+      "node_dist_from_zero": 0.01521416135408367,
+      "node_valid": true,
+      "node_Habs": 0.2876913774586337,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    },
+    {
+      "orig_idx": 341,
+      "re": -25.747719824355457,
+      "im": 46.188944650265015,
+      "abs_u": 52.88065510239782,
+      "absH_stored": 1.8014769989346618e-41,
+      "nearest_step24_dist": 0.08137450447964056,
+      "nearest_node": {
+        "re": -25.744266825446225,
+        "im": 46.20003684100958
+      },
+      "node_dist_from_zero": 0.011617224151273168,
+      "node_valid": true,
+      "node_Habs": 1.753318006151017,
+      "is_local_min_on_step24_grid": false,
+      "classification": "missed_not_local_min"
+    }
+  ]
+}

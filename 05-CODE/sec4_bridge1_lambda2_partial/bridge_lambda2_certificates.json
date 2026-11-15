@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "agent": "Sonnet J, wave 2, Исследование-3-Принцип",
+    "brief": "BRIEF-J-BRIDGE-CERT.md",
+    "method": "bridge: collocation fixed point + eigenpair (Phi,lambda) + normalization Phi(1)=1, chained Krawczyk K1(fixed pt)->K2(eigen), python-flint arb balls; independent verifier = preconditioned interval Gauss-Seidel (Hansen-Sengupta), different code path/criterion",
+    "float_anchors": {
+      "lambda2_d4": "0.29183840898354510453",
+      "lambda2_d6": "0.3710714676819301324709834"
+    },
+    "note_on_N_choice": "Brief example N values (48/56 for d=4, 72/80 for d=6) turned out to be beyond the well-conditioned range of the monomial-in-t Krawczyk method for the EIGENPAIR (DT-linearisation) stage -- verified not a precision artifact (tested dps up to 400, box radii up to 1e30, still fails at N=28-32). Certified at N=16 and N=24 instead (still spacing 8, per brief spirit), where measured condition number of the eigen-Jacobian is 1e14-1e20 and Krawczyk contracts comfortably (dps=150 gives >100 digits headroom). See REPORT-BRIDGE-LAMBDA2.md."
+  },
+  "lambda2_4": {
+    "meta": {
+      "d": 4,
+      "targets": [
+        16,
+        24
+      ],
+      "dps": 150,
+      "seed_path": "../quartic_pilot/quartic_fixedpoint.json",
+      "method": "bridge: collocation fixed point + eigenpair (Phi,lambda) + normalization Phi(1)=1, chained Krawczyk K1(fixed pt)->K2(eigen), python-flint arb balls; independent verifier = preconditioned interval Gauss-Seidel (Hansen-Sengupta), different code path/criterion",
+      "started": "2026-08-15 11:41:14",
+      "finished": "2026-08-15 11:41:32",
+      "total_elapsed_sec": 18.71687078475952
+    },
+    "results": {
+      "16": {
+        "N": 16,
+        "d": 4,
+        "alpha_mid": "1.690302971405239350665821219635948712211",
+        "alpha_cert_halfwidth": 1.1223896930471678e-86,
+        "alpha_box_r_used": "1e-45",
+        "k1_contained": true,
+        "gs1_contained": true,
+        "lambda2_mid": "0.2918384089864367893709380271383162217418",
+        "lambda2_cert_halfwidth": 5.777858152401159e-40,
+        "lambda2_box_r_used": "1e-30",
+        "k2_contained": true,
+        "gs2_contained": true,
+        "newton_resid_fp": 3.5229134994790174e-95,
+        "newton_resid_eig": 2.4858111458768017e-134,
+        "dense_resid_fp": 2.5475332488875544e-17,
+        "dense_resid_eig": 3.2275551147752394e-14,
+        "anchor_alpha_diff": 5.502677958930688e-15,
+        "anchor_lambda2_diff": 2.891684840938027e-12,
+        "elapsed_sec": 2.2534029483795166
+      },
+      "24": {
+        "N": 24,
+        "d": 4,
+        "alpha_mid": "1.690302971405244853343856461258732086439",
+        "alpha_cert_halfwidth": 4.171977111348892e-86,
+        "alpha_box_r_used": "1e-45",
+        "k1_contained": true,
+        "gs1_contained": true,
+        "lambda2_mid": "0.2918384089835451013996223779170524517466",
+        "lambda2_cert_halfwidth": 1.2783596689799582e-35,
+        "lambda2_box_r_used": "1e-20",
+        "k2_contained": true,
+        "gs2_contained": true,
+        "newton_resid_fp": 1.00251305504326e-142,
+        "newton_resid_eig": 4.156006552421999e-108,
+        "dense_resid_fp": 1.6166943108075924e-25,
+        "dense_resid_eig": 7.45153408838577e-22,
+        "anchor_alpha_diff": 7.631093457073821e-23,
+        "anchor_lambda2_diff": 3.1303776220829475e-18,
+        "elapsed_sec": 8.983100414276123
+      }
+    },
+    "cross_N_stability": {
+      "N_lo": 16,
+      "N_hi": 24,
+      "diff": 2.8916879713156493e-12,
+      "combined_halfwidth": 1.2784174475614822e-35,
+      "balls_overlap": false
+    }
+  },
+  "lambda2_6": {
+    "meta": {
+      "d": 6,
+      "targets": [
+        16,
+        24
+      ],
+      "dps": 150,
+      "seed_path": "../agentB_deg6/sextic_fixedpoint.json",
+      "method": "bridge: collocation fixed point + eigenpair (Phi,lambda) + normalization Phi(1)=1, chained Krawczyk K1(fixed pt)->K2(eigen), python-flint arb balls; independent verifier = preconditioned interval Gauss-Seidel (Hansen-Sengupta), different code path/criterion",
+      "started": "2026-08-15 11:41:45",
+      "finished": "2026-08-15 11:42:04",
+      "total_elapsed_sec": 19.423261642456055
+    },
+    "results": {
+      "16": {
+        "N": 16,
+        "d": 6,
+        "alpha_mid": "1.467742450319436467084591226777524886597",
+        "alpha_cert_halfwidth": 1.0721760474602423e-86,
+        "alpha_box_r_used": "1e-45",
+        "k1_contained": true,
+        "gs1_contained": true,
+        "lambda2_mid": "0.3710714456698545464271087878424296827932",
+        "lambda2_cert_halfwidth": 7.287314593400354e-40,
+        "lambda2_box_r_used": "1e-30",
+        "k2_contained": true,
+        "gs2_contained": true,
+        "newton_resid_fp": 8.401074999623913e-151,
+        "newton_resid_eig": 4.5287367934006984e-91,
+        "dense_resid_fp": 2.3373743311826982e-14,
+        "dense_resid_eig": 5.1777503857340833e-11,
+        "anchor_alpha_diff": 4.644773692430884e-13,
+        "anchor_lambda2_diff": 2.2012075586043875e-08,
+        "elapsed_sec": 1.861846685409546
+      },
+      "24": {
+        "N": 24,
+        "d": 6,
+        "alpha_mid": "1.467742450319900944611379121797931699229",
+        "alpha_cert_halfwidth": 4.695925555781978e-86,
+        "alpha_box_r_used": "1e-45",
+        "k1_contained": true,
+        "gs1_contained": true,
+        "lambda2_mid": "0.3710714676819543805370186098950671674621",
+        "lambda2_cert_halfwidth": 3.527544295030253e-36,
+        "lambda2_box_r_used": "1e-20",
+        "k2_contained": true,
+        "gs2_contained": true,
+        "newton_resid_fp": 1.360907656273607e-114,
+        "newton_resid_eig": 2.353733001315086e-149,
+        "dense_resid_fp": 7.268980756399147e-21,
+        "dense_resid_eig": 2.3534936799107842e-17,
+        "anchor_alpha_diff": 1.5754480668895796e-19,
+        "anchor_lambda2_diff": 2.4248066035209896e-14,
+        "elapsed_sec": 9.319471597671509
+      }
+    },
+    "cross_N_stability": {
+      "N_lo": 16,
+      "N_hi": 24,
+      "diff": 2.201209983410991e-08,
+      "combined_halfwidth": 3.528273026489593e-36,
+      "balls_overlap": false
+    }
+  },
+  "corruption_battery": {
+    "d4": {
+      "baseline_ok": true,
+      "corruptions": {
+        "shift_lambda": {
+          "rejected": true
+        },
+        "corrupt_g_coeff": {
+          "rejected": true
+        },
+        "corrupt_eigenvector": {
+          "rejected": true
+        },
+        "wrong_normalization": {
+          "rejected": true
+        }
+      },
+      "all_correctly_rejected": true
+    },
+    "d6": {
+      "baseline_ok": true,
+      "corruptions": {
+        "shift_lambda": {
+          "rejected": true
+        },
+        "corrupt_g_coeff": {
+          "rejected": true
+        },
+        "corrupt_eigenvector": {
+          "rejected": true
+        },
+        "wrong_normalization": {
+          "rejected": true
+        }
+      },
+      "all_correctly_rejected": true
+    }
+  }
+}

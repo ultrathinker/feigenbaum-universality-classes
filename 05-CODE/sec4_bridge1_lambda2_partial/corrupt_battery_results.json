@@ -1,0 +1,38 @@
+{
+  "d4": {
+    "baseline_ok": true,
+    "corruptions": {
+      "shift_lambda": {
+        "rejected": true
+      },
+      "corrupt_g_coeff": {
+        "rejected": true
+      },
+      "corrupt_eigenvector": {
+        "rejected": true
+      },
+      "wrong_normalization": {
+        "rejected": true
+      }
+    },
+    "all_correctly_rejected": true
+  },
+  "d6": {
+    "baseline_ok": true,
+    "corruptions": {
+      "shift_lambda": {
+        "rejected": true
+      },
+      "corrupt_g_coeff": {
+        "rejected": true
+      },
+      "corrupt_eigenvector": {
+        "rejected": true
+      },
+      "wrong_normalization": {
+        "rejected": true
+      }
+    },
+    "all_correctly_rejected": true
+  }
+}

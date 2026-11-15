@@ -1,0 +1,19 @@
+=== Independent OOS re-check of F1 within-2x claim (95%% d6 / 67%% d4) ===
+
+[d6] n=287 accepted interior zeros
+  reproduction of their seed=20260815 split: within2x=95.0%  median_ratio=0.69  (train=86 test=201)
+  500 random 30/70 splits (fresh seeds): within2x median=92.0%  mean=91.9%  [p5=89.1%, p95=94.0%]  min=85.6% max=96.5%
+  5-fold CV (all points OOS once): within2x=92.3%  median_ratio=0.74
+  10-fold CV (all points OOS once): within2x=92.7%  median_ratio=0.71
+  500 splits, LINEAR-ONLY model (c0+c1*u, no u^2*delta^-9 term): within2x median=90.0%  [p5=86.6%,p95=93.6%]
+  500 splits, CONSTANT-ONLY baseline: within2x median=90.5%  [p5=88.6%,p95=93.0%]
+
+[d4] n=61 accepted interior zeros
+  reproduction of their seed=20260815 split: within2x=67.4%  median_ratio=1.14  (train=18 test=43)
+  500 random 30/70 splits (fresh seeds): within2x median=65.1%  mean=58.6%  [p5=18.6%, p95=88.4%]  min=9.3% max=97.7%
+  5-fold CV (all points OOS once): within2x=78.7%  median_ratio=1.12
+  10-fold CV (all points OOS once): within2x=80.3%  median_ratio=1.03
+  500 splits, LINEAR-ONLY model (c0+c1*u, no u^2*delta^-9 term): within2x median=72.1%  [p5=30.2%,p95=88.4%]
+  500 splits, CONSTANT-ONLY baseline: within2x median=76.7%  [p5=30.2%,p95=90.7%]
+
+done check_oos.py

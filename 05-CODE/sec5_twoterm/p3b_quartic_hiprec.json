@@ -1,0 +1,229 @@
+{
+ "tag": "[oid:twotermC] NOT RIGOROUS",
+ "meta": {
+  "mp_dps": 120,
+  "m_levels": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "lambda2_4_old": "0.2918380893",
+  "lambda2_4_new": "0.29183840898354510453",
+  "lambda2_4_source": "quartic_fixedpoint.json checks.eigen2_deflated (coordinator-supplied)",
+  "note": "e4(m) = A4*(cascade[m+1]-a_F)*delta4^m + 1, SIGNED; constants verbatim, no new Newton; follow-up to p3_quartic_twoterm.py with higher-precision lambda2(4)"
+ },
+ "constants": {
+  "a_F": "1.594901356228820564497830482717353475129697571561",
+  "delta4": "7.2846862170733433643089305679955530694780466189573",
+  "A4": "1.4904325463540699872206657264594941418825094844754",
+  "L4": "-0.67094616421670524914183971698604247544702841829545"
+ },
+ "rows": {
+  "7": {
+   "m": 7,
+   "cascade_k": 8,
+   "period": 256,
+   "a_k": "1.59490073989691468352317902020378984232084695",
+   "e4_m": "-0.000006730911420497747308016129841160993343961564964208759901"
+  },
+  "8": {
+   "m": 8,
+   "cascade_k": 9,
+   "period": 512,
+   "a_k": "1.59490127162270653630814263450188629164894387",
+   "e4_m": "-0.000002004303458336439811306987574208826161479375622066789096"
+  },
+  "9": {
+   "m": 9,
+   "cascade_k": 10,
+   "period": 1024,
+   "a_k": "1.59490134461459431462826407121272541690364188",
+   "e4_m": "-0.0000005842638356972798018762558458693268512664889616060980296"
+  },
+  "10": {
+   "m": 10,
+   "cascade_k": 11,
+   "period": 2048,
+   "a_k": "1.59490135463448676465410202154879139711014268",
+   "e4_m": "-0.0000001716029761409509257839827954600338561271917471426422865"
+  },
+  "11": {
+   "m": 11,
+   "cascade_k": 12,
+   "period": 4096,
+   "a_k": "1.59490135600995957885066635487065253096879188",
+   "e4_m": "-0.00000004976852813205896098584947035574711986061018023968706248"
+  },
+  "12": {
+   "m": 12,
+   "cascade_k": 13,
+   "period": 8192,
+   "a_k": "1.59490135619877658300217399166837026874571856",
+   "e4_m": "-0.00000001440476022356123549870015910464975965323479538924436551"
+  },
+  "13": {
+   "m": 13,
+   "cascade_k": 14,
+   "period": 16384,
+   "a_k": "1.59490135622469629884131033480989510210785175",
+   "e4_m": "-0.000000004018146504392160252238987064422490783174229227348103655"
+  }
+ },
+ "models": {
+  "M0": {
+   "description": "z=C  <=>  e4=-C*delta4^-m",
+   "full_sample_coefs": [
+    "179.590536624889297241779852142"
+   ],
+   "loocv_rms_rel_err": "11.5021116517262",
+   "loocv_median_rel_err": "1.73466198249307"
+  },
+  "M1": {
+   "description": "z=C+C2*delta4^-m  <=>  e4=-C*delta4^-m-C2*delta4^-2m",
+   "full_sample_coefs": [
+    "219.1745080926489622253999269",
+    "-260235475.910475110155609268125"
+   ],
+   "loocv_rms_rel_err": "90.5327205353887",
+   "loocv_median_rel_err": "2.45619341252111"
+  },
+  "M2": {
+   "description": "z=C+D*(lambda2(4)_NEW*delta4)^m  <=>  e4=-C*delta4^-m-D*lambda2(4)_NEW^m (FIXED, 20 digits)",
+   "full_sample_coefs": [
+    "3.77123473007742681766419359843",
+    "0.0361539947904575610278966790546"
+   ],
+   "loocv_rms_rel_err": "0.256135042402364",
+   "loocv_median_rel_err": "0.0470266635543237"
+  },
+  "M0L_diagnostic_pure_lambda2": {
+   "description": "e4(m) = -D*lambda2(4)_NEW^m (single term, no delta4)",
+   "full_sample_coefs": [
+    "0.0376609137333009579727077102716"
+   ],
+   "loocv_rms_rel_err": "0.0226123163053601",
+   "loocv_median_rel_err": "0.0120181965652437"
+  }
+ },
+ "question1_M2_vs_M0L": {
+  "M2_loocv_rms_rel_err": "0.256135042402364",
+  "M0L_loocv_rms_rel_err": "0.0226123163053601",
+  "M2_beats_M0L": false,
+  "ratio_M0L_over_M2": "0.08828279057"
+ },
+ "question2_delta4_amplitude": {
+  "C_M2_full_sample": "3.77123473007742681766419359843",
+  "C_sign": "+",
+  "D_M2_full_sample": "0.0361539947904575610278966790546",
+  "D_M0L_alone": "0.0376609137333009579727077102716"
+ },
+ "question3_upper_bound_C": {
+  "D_fixed_at": "0.03766091373330095797270771",
+  "residual_table": [
+   {
+    "m": 7,
+    "r_L": "5.937347047724370965e-8",
+    "implied_C_local": "-0.064635093572340037208"
+   },
+   {
+    "m": 8,
+    "r_L": "-2.2637519209293402015e-8",
+    "implied_C_local": "0.17952115278895125469"
+   },
+   {
+    "m": 9,
+    "r_L": "-5.9376008855306509631e-9",
+    "implied_C_local": "0.34301147409089511695"
+   },
+   {
+    "m": 10,
+    "r_L": "-2.8251679000459368158e-9",
+    "implied_C_local": "1.1889203448294982699"
+   },
+   {
+    "m": 11,
+    "r_L": "-5.1268110330338147746e-10",
+    "implied_C_local": "1.5716891515867953457"
+   },
+   {
+    "m": 12,
+    "r_L": "-3.0012193552329739244e-11",
+    "implied_C_local": "0.67023628132105446818"
+   },
+   {
+    "m": 13,
+    "r_L": "1.7695709022498808419e-10",
+    "implied_C_local": "-28.78783552819238765"
+   }
+  ],
+  "C_hat_regression_D_fixed": "-0.059970396537276684169",
+  "scatter_mean_C_local": "-3.55701317387822",
+  "scatter_sample_std_C_local": "11.1404674709188",
+  "max_abs_implied_C_local_conservative_bound": "28.7878355281924",
+  "consistent_with_zero_at_2sigma": true
+ },
+ "supplementary_diagnostics_m7to12_isolated": {
+  "purpose": "isolate whether higher-precision lambda2(4) alone (without range extension) changes the M2-vs-M0L outcome",
+  "m_range": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "M2_loocv_rms_rel_err": "0.0411372101629005",
+  "M0L_loocv_rms_rel_err": "0.0099081690444383",
+  "M2_beats_M0L": false,
+  "conclusion": "precision increase (10->20 digits) makes no material difference on m=7..12; M2 still does not beat M0L",
+  "ratios_e4m_over_e4m1_full_range": [
+   {
+    "m0": 7,
+    "m1": 8,
+    "ratio": "3.3582297"
+   },
+   {
+    "m0": 8,
+    "m1": 9,
+    "ratio": "3.4304767"
+   },
+   {
+    "m0": 9,
+    "m1": 10,
+    "ratio": "3.4047419"
+   },
+   {
+    "m0": 10,
+    "m1": 11,
+    "ratio": "3.4480219"
+   },
+   {
+    "m0": 11,
+    "m1": 12,
+    "ratio": "3.4550057"
+   },
+   {
+    "m0": 12,
+    "m1": 13,
+    "ratio": "3.5849266"
+   }
+  ],
+  "m12_13_ratio_flagged_as_outlier": true,
+  "upper_bound_C_m7to12_subset": {
+   "D_fixed_at": "0.037925681358984483388",
+   "mean_implied_C_local": "-0.0543938620114",
+   "sample_std_implied_C_local": "0.80813480892",
+   "regression_C_hat": "-0.11308729350288",
+   "two_sigma_band": [
+    "-1.729356911",
+    "1.503182324"
+   ],
+   "conservative_upper_bound_abs_C": "1.58662291085",
+   "consistent_with_zero": true
+  }
+ }
+}

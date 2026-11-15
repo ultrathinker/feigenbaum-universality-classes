@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "tag": "[kid:verify] interval Krawczyk stage, rewrite 3 (trig-form Chebyshev balls)",
+    "date": "2026-08-15 01:09:07",
+    "arb_dps": 130,
+    "mpmath_dps": 140,
+    "k1_ok": true,
+    "k2_lambda2_ok": true,
+    "k2b_delta_ok": true,
+    "note": "phase-1 strings have b_41..b_48 = 0.0 (below Newton tol); K1 box 1e-30 covers true values",
+    "elapsed_sec": 32.47479200363159
+  },
+  "K1_fixed_point": {
+    "box_radius": "1e-44",
+    "contained": "49/49",
+    "alpha_mid": "2.502907875095892822283902873218215786381271376727149978"
+  },
+  "K2_lambda2": {
+    "box_r_v": "1e-18",
+    "box_r_lambda": "1e-21",
+    "contained": "49/49",
+    "lambda2_mid": "-0.1236527125526870243353936525855166103901"
+  },
+  "K2b_delta": {
+    "delta_mid": "4.669201609102990671853203820466201617258185577475768632"
+  }
+}

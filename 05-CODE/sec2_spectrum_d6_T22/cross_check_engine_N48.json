@@ -1,0 +1,44 @@
+[
+  {
+    "lam": "0.37107146768193013247",
+    "dense_resid_rel": "2.23772e-31",
+    "closest": "lambda2(pos)",
+    "diff_to_closest": "1.32471e-16"
+  },
+  {
+    "lam": "-0.3419683225478021051",
+    "dense_resid_rel": "1.09063e-31",
+    "closest": "lambda3(neg)",
+    "diff_to_closest": "2.1051e-15"
+  },
+  {
+    "lam": "-0.21051852081427164056",
+    "dense_resid_rel": "1.39598e-31",
+    "closest": "m3(lam4?)",
+    "diff_to_closest": "1.64056e-15"
+  },
+  {
+    "lam": "0.20784669102299928761",
+    "dense_resid_rel": "2.65639e-31",
+    "closest": "NEW_0.2078",
+    "diff_to_closest": "7.12386e-16"
+  },
+  {
+    "lam": "-0.14488609906250503759",
+    "dense_resid_rel": "1.5478e-31",
+    "closest": "NEW_-0.1449",
+    "diff_to_closest": "4.96241e-15"
+  },
+  {
+    "lam": "0.10002322865337734311",
+    "dense_resid_rel": "3.42075e-31",
+    "closest": "tower1(0.10002)",
+    "diff_to_closest": "2.65689e-15"
+  },
+  {
+    "lam": "-0.069223512195364478327",
+    "dense_resid_rel": "1.70183e-31",
+    "closest": "NEW_-0.0692",
+    "diff_to_closest": "4.47833e-15"
+  }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "d": "17",
+  "error": "cascade stuck at k=4"
+ },
+ {
+  "d": "18",
+  "delta": 16.28543290506832,
+  "nodes": {
+   "-1": {
+    "status": "ok",
+    "rates": [
+     1.6611,
+     1.9167,
+     1.6453,
+     1.957,
+     1.7136,
+     2.2498
+    ],
+    "median": 1.9167,
+    "exact_limit_rates": [
+     1.7699,
+     1.8639,
+     1.8205,
+     1.9949,
+     2.034,
+     2.5215
+    ]
+   },
+   "2.5": {
+    "status": "failed"
+   },
+   "6": {
+    "status": "failed"
+   },
+   "12": {
+    "status": "failed"
+   },
+   "20": {
+    "status": "failed"
+   }
+  },
+  "median_over_nodes": 1.9166849299143416,
+  "implied_lambda2": 0.52173,
+  "verdict": "lambda2-regime",
+  "elapsed_s": 277.5
+ },
+ {
+  "d": "19",
+  "error": "cascade stuck at k=4"
+ },
+ {
+  "d": "20",
+  "error": "cascade stuck at k=4"
+ }
+]

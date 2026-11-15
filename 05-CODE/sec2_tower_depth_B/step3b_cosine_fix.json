@@ -1,0 +1,13 @@
+{
+ "tower_mode_d4": {
+  "lam": "0.12250160542740476",
+  "N40_match": "0.12250160542740476"
+ },
+ "branch_mode_d401_physical": {
+  "lam": "0.122976009744812589"
+ },
+ "branch_mode_d401_pollution_N48only": "0.122744188541894526",
+ "cosine_corrected": 0.9999441631846597,
+ "cosine_using_pollution_entry_forref": 8.938802711419568e-06,
+ "verdict": "coordinate-mode shadow CONFIRMED (cos~1)"
+}

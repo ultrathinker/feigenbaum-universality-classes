@@ -1,0 +1,246 @@
+{
+ "tag": "[oid:twotermC] NOT RIGOROUS",
+ "note": "This JSON holds the structured verdict data for BRIEF-C-TWOTERM.md plus the coordinator's follow-up (higher-precision lambda2(4), Phase 3b). A prose REPORT_TWOTERM.md could not be written to disk (subagent report-file write restriction enforced by the harness); the full prose report was returned as text to the orchestrating agent instead. All numeric results below are reproduced from p1_modelsel.json / p2_deg2_realzeros.json / p3_quartic_twoterm.json / p3b_quartic_hiprec.json, which remain the primary source data.",
+ "verdict": {
+  "degree2_M2": "CONFIRMED",
+  "degree2_M2_evidence": "Phase 1 (calibration u=-1, 7 pts): LOOCV rms rel err M0=3.207e-4, M1=8.563e-4 (worse), M2=5.548e-6 (58x better than M0), M2p=3.640e-4 (no gain). Residual-after-M0 sign pattern m=7..13: +,-,+,-,+,-,- (5/6 alternations), geometric mean |ratio|=7.882 vs candidate 1/|lambda2|=8.0872 (2.6% off). Phase 2 (Z06/Z44/Z50, free u_inf, 5 pts each): LOOCV rms abs err improvement factors 313x/527x/485x (M2 over M0'); D amplitudes +4.384/+112.766/+275.028, same sign as Phase 1's D=+0.001985 across all 4 independent nodes. Coordinator independently reproduced this (sign pattern, ratio 7.891, amplitudes to all digits) -- Phase 1/2 audited GREEN.",
+  "degree4_M2": "FINAL (Phase 3c, last iteration): STILL NEYASNO / effectively NULL for the two-term sum in the only valid (non-circular) range. Dominant-term claim (lambda2(4) beats delta4) remains CONFIRMED decisively, unchanged throughout.",
+  "degree4_M2_evidence": "Phase 3 original (cascade m=7..12, lambda2(4) to ~10 digits): M0 (pure delta4) LOOCV rel err 684% (catastrophic). M0L (pure lambda2(4)^m, single term) LOOCV rel err 0.99% (excellent) -- decisively confirms lambda2(4) dominates over delta4, reproducing quartic pilot's ratio~3.4266 finding. M2 (both terms free) LOOCV rel err 4.1%, WORSE than M0L alone. Phase 3b (20-digit lambda2(4)): essentially unchanged (M2=4.11% vs M0L=0.99%); extending to m=13 made both worse (outlier ratio e4(12)/e4(13)=3.585 vs 3.36-3.46 band). Phase 3c (FINAL): coordinator independently confirmed the m=12/13 outlier is real (audit_a14_check.py, diffs <=4.8e-45, not a precision artifact). Extended to m=7..16 via own-verified cascade k=15,16,17 (dps=140, forward-continuation Newton, exact-period checked, diffs vs pilot 5.5e-46/3.0e-46/4.8e-45). CRITICAL DISCOVERY: a_F in mside_cascade.json is cF_rich[K_MAX=17], algebraically built FROM cascade[15],[16],[17] via the Richardson chain -- so e4(14),e4(15),e4(16) are CIRCULAR (a_F was constructed using the same cascade[k] being tested against it), exactly analogous to agent A's Z72 exclusion in REPORT_LAMBDA2_DEG2.md section 3.3. This explains the striking exact-delta4 ratio observed at m=14/15 and m=15/16 (7.284686217... to 11 digits) as a Richardson-recursion residual artifact, NOT a physical delta4-vs-lambda2 crossover. Re-ran the tail model selection on ONLY the non-circular subset m=10..13 (4 points, k=11..14): none of 4 candidate second terms (delta4^-m, lambda3(4)^m=0.2557, coordinate mode 1/alpha4^m=0.5916, lambda2(4)^2^m=0.0852) beat pure-lambda2 M0L in LOOCV (best was coordinate mode at 0.0365 vs M0L's 0.0316 -- still worse). CONCLUSION: consistent null result across all three sub-phases (3, 3b, 3c) in every non-circular range tested -- no second term is resolvable for degree 4 with the available data; this is now well-established rather than a lingering precision question."
+ },
+ "phase3c_final_followup": {
+  "coordinator_request": "Verify cascade k=15,16,17 via own Newton (dps=140, forward continuation, exact period check); build e4(m) for m=7..16; tail model selection (m=10..16) among 4 second-term candidates vs -D*lambda2(4)^m: (a) delta4^-m, (b) lambda3(4)^m, (c) coordinate mode 1/alpha4^m, (d) lambda2(4)^2^m. Declared FINAL iteration on degree 4 regardless of outcome.",
+  "cascade_verification": {
+   "k15_diff_vs_pilot": "5.544013e-46",
+   "k16_diff_vs_pilot": "3.029449e-46",
+   "k17_diff_vs_pilot": "4.838610e-45",
+   "all_exact_period_checks": "PASSED",
+   "method": "own forward-continuation Newton, dps=140, seeded from pilot's (coordinator-cross-verified) k=13,14 values, independent of p3_mside.py's implementation"
+  },
+  "ratio_table_m7_to_m15": {
+   "7/8": "3.358230",
+   "8/9": "3.430477",
+   "9/10": "3.404742",
+   "10/11": "3.448022",
+   "11/12": "3.455006",
+   "12/13": "3.584927",
+   "13/14": "4.005408",
+   "14/15": "7.284686 (== delta4 to 11 digits -- CIRCULAR, see finding below)",
+   "15/16": "7.284686 (== delta4 to 11 digits -- CIRCULAR, see finding below)"
+  },
+  "CRITICAL_circularity_finding": {
+   "issue": "a_F = cF_rich[K_MAX=17] = (cF_seq[17]-r2*cF_seq[16])/(1-r2); cF_seq[17]=f(cascade[17],cascade[16]); cF_seq[16]=f(cascade[16],cascade[15]) -- a_F is ALGEBRAICALLY built from cascade[15],[16],[17] (traced directly from quartic_pilot/p3_mside.py source).",
+   "consequence": "e4(14) [k=15], e4(15) [k=16], e4(16) [k=17] compute (cascade[k]-a_F) with a_F constructed FROM that same cascade[k] -- circular. The exact-delta4 ratio at m=14-16 is a Richardson-recursion artifact, not physics. Analogous to agent A's Z72 exclusion (REPORT_LAMBDA2_DEG2.md 3.3).",
+   "valid_range": "m=7..13 (k=8..14) unaffected -- a_F's formula does not directly involve cascade[k<=14]."
+  },
+  "tail_model_selection_noncircular_m10to13": {
+   "m_range": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "caveat": "only 4 points, LOOCV trains on 3 per fold -- suggestive at best",
+   "M0L_baseline_loocv_rms_rel_err": "0.03162",
+   "candidates": {
+    "a_delta4": {
+     "loocv_rms_rel_err": "0.11699",
+     "beats_M0L": false
+    },
+    "b_lambda3": {
+     "loocv_rms_rel_err": "0.06784",
+     "beats_M0L": false
+    },
+    "c_coordmode": {
+     "loocv_rms_rel_err": "0.03647",
+     "beats_M0L": false
+    },
+    "d_lambda2sq": {
+     "loocv_rms_rel_err": "0.18300",
+     "beats_M0L": false
+    }
+   },
+   "result": "NONE of the 4 candidates beat pure-lambda2 M0L -- consistent null, same conclusion as phases 3 and 3b"
+  },
+  "final_verdict_change": "NO CHANGE to the degree-4 two-term verdict (still NEYASNO/null for M2); the dominant-term result (lambda2(4) beats delta4) is unaffected and remains solid. This is the last iteration on degree 4 per the coordinator's instruction."
+ },
+ "phase3b_hiprec_followup": {
+  "coordinator_request": "Rerun Phase 3 with lambda2(4)=quartic_fixedpoint.json checks.eigen2_deflated=0.29183840898354510453 (20 digits, vs the original brief's 0.2918380893, ~10 digits); extend to m=13 if useful; dps=120.",
+  "question1_does_M2_beat_M0L_now": {
+   "m7to12_same_range_new_lambda2": {
+    "M2_loocv_rms_rel_err": "0.04114",
+    "M0L_loocv_rms_rel_err": "0.009908",
+    "M2_beats_M0L": false,
+    "ratio_M0L_over_M2": 0.2409
+   },
+   "m7to13_extended_range_new_lambda2": {
+    "M2_loocv_rms_rel_err": "0.2561",
+    "M0L_loocv_rms_rel_err": "0.02261",
+    "M2_beats_M0L": false,
+    "ratio_M0L_over_M2": 0.0883
+   },
+   "answer": "NO in both cases. Precision increase alone (10->20 digits) makes no material difference on the original range; extending the range makes both models worse (dominated by an apparent outlier at m=12/13)."
+  },
+  "question2_delta4_amplitude_C": {
+   "m7to12_new_lambda2": {
+    "C": "0.4243476393053",
+    "sign": "+",
+    "D": "0.0377452513967129"
+   },
+   "m7to13_new_lambda2": {
+    "C": "3.7712347300774268177",
+    "sign": "+",
+    "D": "0.036153994790457561028"
+   },
+   "note": "C on m=7..12 is stable and consistent with the original run's C=0.424239 (same sign, <0.03% shift). C on m=7..13 jumps by ~9x (3.77 vs 0.42) purely because of the m=13 outlier point dragging the 2-parameter fit -- NOT read as a reliable amplitude estimate; the m=7..12 value is the more trustworthy one."
+  },
+  "question3_upper_bound_on_C_D_fixed": {
+   "m7to12_subset_preferred": {
+    "D_fixed_at_M0L": "0.0379256813589845",
+    "regression_C_hat": "-0.1131",
+    "two_sigma_band": [
+     "-1.729",
+     "1.503"
+    ],
+    "consistent_with_zero": true,
+    "conservative_max_abs_implied_C": "1.587",
+    "reading": "|C| < ~1.6 (conservative), or C consistent with 0 within +/-1.5-1.7 at 2 sigma -- a real bound, D/C-scale comparison: |D|=0.0379 so this bound does not itself rule out a delta4 term at amplitude comparable to or even somewhat larger than D; it just says the present 6-point data cannot resolve it."
+   },
+   "m7to13_full_range_looser": {
+    "regression_C_hat": "-0.0600",
+    "sample_std": "11.14",
+    "max_abs_implied_C": "28.79",
+    "reading": "much looser/noisier bound, dominated by the m=13 outlier -- the m=7..12 bound above is preferred."
+   }
+  }
+ },
+ "phase1_deg2_calibration": {
+  "m_range": "7..13",
+  "e_m_signed": {
+   "7": "1.4480172734637e-6",
+   "8": "3.0982417371209e-7",
+   "9": "6.6391567946544e-8",
+   "10": "1.4214504359627e-8",
+   "11": "3.0448740557267e-9",
+   "12": "6.5205077111739e-10",
+   "13": "1.3965920247709e-10"
+  },
+  "all_signs_positive": true,
+  "models_loocv_rms_rel_err": {
+   "M0": "3.207e-4",
+   "M1_control": "8.563e-4",
+   "M2": "5.548e-6",
+   "M2p_control": "3.640e-4"
+  },
+  "M2_full_sample_coefs": {
+   "C": "-0.070018",
+   "D": "0.0019849"
+  },
+  "residual_after_M0": {
+   "C_M0": "-0.0700219167743432",
+   "signs_m7_to_13": [
+    "+",
+    "-",
+    "+",
+    "-",
+    "+",
+    "-",
+    "-"
+   ],
+   "n_alternations": "5/6",
+   "geometric_mean_abs_ratio": 7.882180808637262,
+   "candidate_1_over_abs_lambda2": 8.087165896776517,
+   "candidate_1_over_abs_lambda3": 17.449868818628882,
+   "candidate_delta_squared": 21.801443666449956
+  }
+ },
+ "phase2_deg2_realzeros": {
+  "m_range": "8..12",
+  "zeros": {
+   "Z06": {
+    "u_inf_M2": "15.122181430",
+    "C": "-16.012",
+    "D": "4.384",
+    "loocv_rms_M0p": "1.167e-8",
+    "loocv_rms_M2": "3.731e-11",
+    "improvement_factor": 312.7
+   },
+   "Z44": {
+    "u_inf_M2": "25.141569542",
+    "C": "-44.257",
+    "D": "112.766",
+    "loocv_rms_M0p": "1.805e-7",
+    "loocv_rms_M2": "3.423e-10",
+    "improvement_factor": 527.23
+   },
+   "Z50": {
+    "u_inf_M2": "31.136925320",
+    "C": "-67.880",
+    "D": "275.028",
+    "loocv_rms_M0p": "3.554e-7",
+    "loocv_rms_M2": "7.322e-10",
+    "improvement_factor": 485.38
+   }
+  }
+ },
+ "phase3_deg4_quartic": {
+  "m_range": "7..12",
+  "e4_m_signed": {
+   "7": "-6.7309e-6",
+   "8": "-2.0043e-6",
+   "9": "-5.8426e-7",
+   "10": "-1.7160e-7",
+   "11": "-4.9769e-8",
+   "12": "-1.4405e-8"
+  },
+  "all_signs_negative": true,
+  "models_loocv_rms_rel_err": {
+   "M0_pure_delta4": "6.841 (684%)",
+   "M1_control": "54.49 (5449%)",
+   "M0L_pure_lambda2_diagnostic": "0.00991 (0.99%)",
+   "M2_both_free": "0.04113 (4.1%)"
+  },
+  "M2_full_sample_coefs": {
+   "C": "0.424239",
+   "D": "0.037746"
+  },
+  "residual_after_M0": {
+   "signs_m7_to_12": [
+    "+",
+    "+",
+    "+",
+    "+",
+    "-",
+    "-"
+   ],
+   "n_alternations": "1/5",
+   "geometric_mean_abs_ratio": 6.129364134631111,
+   "candidate_1_over_lambda2_4": 3.4266,
+   "candidate_delta4": 7.2847
+  },
+  "limitation": "lambda2(4)=0.2918380893 (brief, ~10 digits) vs quartic_fixedpoint.json checks.eigen2_deflated=0.29183840898354510453 (~6-7 digit agreement only) -- insufficient precision to resolve the subordinate delta4 term once the dominant lambda2(4) term (99% of signal) is accounted for."
+ },
+ "amplitude_cross_degree_comparison": {
+  "degree2_M2_C": "-0.070018",
+  "degree2_M2_D": "0.0019849",
+  "degree4_M2_C": "0.424239",
+  "degree4_M2_D": "0.037746",
+  "note": "No simple numeric echo between degrees (|D/C| differs ~3x, C has opposite sign) -- reported as genuine negative sub-finding, not a confirmed amplitude relationship."
+ },
+ "files": [
+  "common.py",
+  "p1_deg2_calib.py",
+  "p1_deg2_calib.json",
+  "p1_modelsel.py",
+  "p1_modelsel.json",
+  "p2_deg2_realzeros.py",
+  "p2_deg2_realzeros.json",
+  "p3_quartic_twoterm.py",
+  "p3_quartic_twoterm.json",
+  "p3b_quartic_hiprec.py",
+  "p3b_quartic_hiprec.json",
+  "progress.log",
+  "REPORT_TWOTERM_verdict.json",
+  "p3c_quartic_tail.py",
+  "p3c_quartic_tail.json"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "meta": {
+  "created": "2026-08-15 19:33:12",
+  "tag": "S3-F5 final consolidation"
+ },
+ "task1_d8": {
+  "alpha8_N48": "1.3580172791380503454873763331062631",
+  "alpha8_N56": "1.3580172791380503454873763331062631",
+  "alpha8_drift_N48_N56": 0.0,
+  "alpha8_vs_minimax_diff": 9.386383666893737e-18,
+  "dense_resid_N48": 6.958960995179001e-36,
+  "dense_resid_N56": 6.958960995179001e-36,
+  "tower1_8": 0.08644853405611026,
+  "n_gt_8_corrected": 7,
+  "n_gt_8_minimax_reported": 6,
+  "minimax_window_bug": 0.42,
+  "essential_list_8": [
+   "0.4294647750896602",
+   "-0.4061737239361409",
+   "0.2754461271605273",
+   "-0.2540955080501791",
+   "-0.2011001846251328",
+   "0.1576550336283206",
+   "-0.1184069940688666",
+   "-0.0643952264858978",
+   "0.0469281776050552",
+   "-0.03480139525698204",
+   "0.02543206350277078"
+  ],
+  "verdict": "MiniMax n_>(8)=6 is an UNDERCOUNT. Root cause: their stable_modes_at_N used WINDOW=0.42 (inherited from the d<=4 spectrum_window convention), which silently excludes the genuine, N=48/56/64-ladder-stable essential mode |lam|=0.42946 (dense functional residual 1e-18, matched to 1e-15 relative across three truncations). With this mode restored, n_>(8)=7."
+ },
+ "task2_neighborhood": {
+  "d4_slope_per_unit_d": 0.0622,
+  "d4_multiplicity": "exactly 1 genuine (N-stable) mode within |lam-tower1|<0.02 at every d in {3.98,3.99,4.0,4.01,4.02}; N=48-only extra entries at 3.99/4.01/4.02 are pseudospectral pollution (absent at N=40 AND N=56 -- confirmed by a direct N=40/48/56 check at d=4.01).",
+  "d6_slope_per_unit_d": 0.0379,
+  "d6_multiplicity": "exactly 1 genuine mode at 5.98/6.0/6.02, no pollution ambiguity observed.",
+  "cosine_d4_corrected": 0.9999441631846597,
+  "cosine_d4_verdict": "coordinate-mode shadow CONFIRMED (cos~1)",
+  "cosine_d6": 0.8067303953007262
+ },
+ "task3_numbering": {
+  "n_gt_established_2_4_6_this_task_8": {
+   "2": 0,
+   "4": 3,
+   "6": 5,
+   "8": 7
+  },
+  "position_no_delta": {
+   "2": 1,
+   "4": 4,
+   "6": 6,
+   "8": 8
+  },
+  "position_with_delta": {
+   "2": 2,
+   "4": 5,
+   "6": 7,
+   "8": 9
+  },
+  "pattern_check_n_gt_eq_d_minus_1_for_d_geq_4": {
+   "4": true,
+   "6": true,
+   "8": true
+  },
+  "proposed_formula": "n_>(d) = d-1 for even d>=4 (verified d=4,6,8: 3,5,7); d=2 is the boundary/onset point (n_>(2)=0, one less than the d>=4 pattern would give, because the tower value alpha^-2 is exactly where the branch is BORN, not a mid-spectrum crossing). Equivalently: tower alpha_d^-d occupies rank d among subleading-by-modulus (without delta) for d>=4, and rank 1 at d=2; with delta counted, ranks are d+1 (d>=4) and 2 (d=2). This SUPERSEDES MiniMax REPORT-F5.md section 4.4's formula \"(d+1)-th with delta / d-th without delta\" -- that formula does not even match MiniMax's OWN table 3.2 at d=2 (1st without delta, not 2nd) and was based on the undercounted n_>(8)=6."
+ }
+}

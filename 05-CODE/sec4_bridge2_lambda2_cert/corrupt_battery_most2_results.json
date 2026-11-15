@@ -1,0 +1,227 @@
+{
+  "d4_N24": {
+    "control_uncorrupted": {
+      "k1_contained": true,
+      "k2_contained": true,
+      "expected": "contained=True (must certify)",
+      "pass": true
+    },
+    "shift_lambda_10r": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda center shifted by +10*box_r=0.000000000000000000000000000000000000001 at r=1e-40"
+    },
+    "shift_lambda_1e-30": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda center shifted by +1e-30 at r=1e-40 (1e-30 >> box radius)"
+    },
+    "swap_to_lambda3": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda2 replaced by lambda3=-0.25566455847429740633"
+    },
+    "swap_to_calibration": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda2 replaced by alpha^-4=0.122501605427405"
+    },
+    "corrupt_b_coeff": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "b_6 += 1e-20 at r=1e-50"
+    },
+    "corrupt_c_coeff": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "c_4 += 1e-20 at r=1e-40"
+    },
+    "corrupt_alpha": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "alpha += 1e-25 at r=1e-50"
+    },
+    "wrong_normalization": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "c scaled by 2x (Phi(1)=2 instead of 1) at r=1e-40"
+    },
+    "inflate_radius_1e-3": {
+      "ran": true,
+      "k1_contained": false,
+      "k2_contained": false,
+      "note_k1": "K1 contained=False at r=1e-3",
+      "note_k2": "K2 contained=False at r=1e-3",
+      "expected": "documented honestly (K1 may still trivially \"succeed\" since alpha is extremely well-determined; K2 typically degenerates/fails -- not a hard pass/fail requirement)",
+      "pass": null
+    }
+  },
+  "d6_N24": {
+    "control_uncorrupted": {
+      "k1_contained": true,
+      "k2_contained": true,
+      "expected": "contained=True (must certify)",
+      "pass": true
+    },
+    "shift_lambda_10r": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda center shifted by +10*box_r=0.000000000000000000000000000000000000001 at r=1e-40"
+    },
+    "shift_lambda_1e-30": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda center shifted by +1e-30 at r=1e-40 (1e-30 >> box radius)"
+    },
+    "swap_to_lambda3": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda2 replaced by lambda3=-0.3419683225478021051"
+    },
+    "swap_to_calibration": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda2 replaced by alpha^-6=0.100023228653377"
+    },
+    "corrupt_b_coeff": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "b_6 += 1e-20 at r=1e-50"
+    },
+    "corrupt_c_coeff": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "c_4 += 1e-20 at r=1e-40"
+    },
+    "corrupt_alpha": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "alpha += 1e-25 at r=1e-50"
+    },
+    "wrong_normalization": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "c scaled by 2x (Phi(1)=2 instead of 1) at r=1e-40"
+    },
+    "inflate_radius_1e-3": {
+      "ran": true,
+      "k1_contained": false,
+      "k2_contained": false,
+      "note_k1": "K1 contained=False at r=1e-3",
+      "note_k2": "K2 contained=False at r=1e-3",
+      "expected": "documented honestly (K1 may still trivially \"succeed\" since alpha is extremely well-determined; K2 typically degenerates/fails -- not a hard pass/fail requirement)",
+      "pass": null
+    }
+  },
+  "d4_N40": {
+    "control_uncorrupted": {
+      "k1_contained": true,
+      "k2_contained": true,
+      "expected": "contained=True (must certify)",
+      "pass": true
+    },
+    "shift_lambda_10r": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda center shifted by +10*box_r=0.000000000000000000000000000000000000001 at r=1e-40"
+    },
+    "shift_lambda_1e-30": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda center shifted by +1e-30 at r=1e-40 (1e-30 >> box radius)"
+    },
+    "swap_to_lambda3": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda2 replaced by lambda3=-0.25566455847429740633"
+    },
+    "swap_to_calibration": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "lambda2 replaced by alpha^-4=0.122501605427405"
+    },
+    "corrupt_b_coeff": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "b_6 += 1e-20 at r=1e-50"
+    },
+    "corrupt_c_coeff": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "c_4 += 1e-20 at r=1e-40"
+    },
+    "corrupt_alpha": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "alpha += 1e-25 at r=1e-50"
+    },
+    "wrong_normalization": {
+      "ran": true,
+      "contained": false,
+      "error": null,
+      "expected": "contained=False (broken)",
+      "detail": "c scaled by 2x (Phi(1)=2 instead of 1) at r=1e-40"
+    },
+    "inflate_radius_1e-3": {
+      "ran": true,
+      "k1_contained": false,
+      "k2_contained": false,
+      "note_k1": "K1 contained=False at r=1e-3",
+      "note_k2": "K2 contained=False at r=1e-3",
+      "expected": "documented honestly (K1 may still trivially \"succeed\" since alpha is extremely well-determined; K2 typically degenerates/fails -- not a hard pass/fail requirement)",
+      "pass": null
+    }
+  },
+  "_summary": {
+    "all_controls_ok": true,
+    "total_corruptions_meaningful": 24,
+    "total_corruptions_correctly_broken": 24,
+    "all_broken": true
+  }
+}

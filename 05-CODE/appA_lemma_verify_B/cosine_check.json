@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "N_TRUNC": 40,
+    "note": "coefficient-space cosine uses exact truncated power-series coefficients of Phi_k built from the same a48 array used to make DT_matrix in engine.py (own re-implementation, own polynomial arithmetic)."
+  },
+  "coordinate_mode": [
+    {
+      "d": "2.0",
+      "alpha_pow_minus_d": "0.15962844038269977003948083979451145318666975339505",
+      "matched_lambda_index": 0,
+      "matched_lambda": "0.1596284403826997700394807",
+      "lambda_rel_diff": "8.757494035401058508520413630969049963651041324108e-25",
+      "Phi1_const_term_c0_sanity_should_be_~0": "0.0",
+      "cosine_coefficient_space": "0.98173953848155697066587879036918435924005727895481",
+      "cosine_value_grid": "0.99999999999999999999999999999999999999999999156491"
+    },
+    {
+      "d": "4.0",
+      "alpha_pow_minus_d": "0.122501605427404760198016547980740560960672156236",
+      "matched_lambda_index": 3,
+      "matched_lambda": "0.1225016054274047601980185",
+      "lambda_rel_diff": "1.5934642265531928104149420261441357609191618470911e-23",
+      "Phi1_const_term_c0_sanity_should_be_~0": "0.0",
+      "cosine_coefficient_space": "-0.99982471260370789326318244608363087845846041615338",
+      "cosine_value_grid": "-0.99999999999999999999999999999999999999999709149094"
+    }
+  ],
+  "shadow_branch": [
+    {
+      "d": "2.01",
+      "pos_branch_lambda": "0.16060524594146088905866065488226013258099555969238",
+      "matched_lambda_index": 0,
+      "matched_lambda": "0.16060524594146089412511",
+      "lambda_rel_diff": "3.1545976692220958316379231498143706007557817585203e-17",
+      "cosine_coefficient_space_vs_Phi1_at_d2": "0.91818069480224210860924238387506297999278118524464",
+      "cosine_value_grid_vs_Phi1_at_d2": "0.99999917842317343660622794257276300313099266748755"
+    },
+    {
+      "d": "2.05",
+      "pos_branch_lambda": "0.1644548440074846129554941853712080046534538269043",
+      "matched_lambda_index": 0,
+      "matched_lambda": "0.1644548440074846155251338",
+      "lambda_rel_diff": "1.562519869899267564737645978294185058658181234507e-17",
+      "cosine_coefficient_space_vs_Phi1_at_d2": "0.99596393179875890155476400352636449378110720585689",
+      "cosine_value_grid_vs_Phi1_at_d2": "0.99998013626856887093835239875987111940747421655279"
+    }
+  ]
+}

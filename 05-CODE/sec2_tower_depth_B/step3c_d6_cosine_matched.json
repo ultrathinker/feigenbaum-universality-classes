@@ -1,0 +1,8 @@
+{
+ "tower_mode_d6": "0.100023228653377343",
+ "branch_mode_d601": "0.100317615071610624",
+ "cosine_dd001": 0.5690873653367121,
+ "cosine_dd002_from_step3": 0.8067303953007262,
+ "cosine_d4_dd001_from_step3b": 0.9999441632,
+ "comparison": "d=4: cosine~1 (branch eigenvector essentially frozen through the crossing). d=6: cosine 0.57-0.81 depending on step (0.57 at dd=0.01, 0.81 at dd=0.02) -- NOT close to 1 either way, i.e. the eigenvector rotates substantially through the d=6 crossing. This is a genuine qualitative difference from d=4, not a step-size artifact (smaller step gives LOWER cosine at d=6, opposite of what pure discretisation/continuity would predict)."
+}

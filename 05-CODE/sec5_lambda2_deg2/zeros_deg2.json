@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "tag": "[oid:lam2A] NOT RIGOROUS float pilot (agent A), phase 2 zero catalog, REVISION 2 (Richardson-corrected)",
+    "date": "2026-08-14 23:45:20",
+    "not_rigorous": true,
+    "n_total": 15,
+    "n_complex": 11,
+    "n_real": 3,
+    "delta_used_for_richardson": "4.6692016091029906718532038204662016172581855774758",
+    "revision_note": "REVISION 2: all zeros (real+complex) now Richardson-extrapolated from zero_map.json level trajectories to m=infinity; raw results.json u_cat was found to equal the m=7 seed value, biased by ~1e-5..1e-4 relative to the converged H-zero -- see bias_vs_raw_u_cat per zero and progress.log for the discovery trail.",
+    "elapsed_sec": 0.016286611557006836
+  },
+  "zeros": [
+    {
+      "id": "Z01",
+      "kind": "complex_richardson_extrapolated",
+      "re": "1.553519130382995777466384",
+      "im": "8.123793069192496639221002",
+      "abs_u": 8.27099966869338,
+      "arg_deg": 79.17398787480536,
+      "richardson_residual_estimate": 7.331348111778051e-08,
+      "bias_vs_raw_u_cat": 2.734924876038447e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z02",
+      "kind": "complex_richardson_extrapolated",
+      "re": "5.817862544497174365049647",
+      "im": "4.476060290420564949525269",
+      "abs_u": 7.340479569492921,
+      "arg_deg": 37.573426449039076,
+      "richardson_residual_estimate": 5.702246053479227e-08,
+      "bias_vs_raw_u_cat": 2.141609655042619e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z05",
+      "kind": "complex_richardson_extrapolated",
+      "re": "5.011417583030413310129497",
+      "im": "5.626730252531289211042616",
+      "abs_u": 7.534878866063954,
+      "arg_deg": 48.31031147905939,
+      "richardson_residual_estimate": 4.5298865432191084e-08,
+      "bias_vs_raw_u_cat": 2.190032971082467e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z17",
+      "kind": "complex_richardson_extrapolated",
+      "re": "6.681451102302813883041112",
+      "im": "6.210522720133293788414426",
+      "abs_u": 9.122082069887078,
+      "arg_deg": 42.90798387790467,
+      "richardson_residual_estimate": 6.926233651444875e-08,
+      "bias_vs_raw_u_cat": 3.240966589696996e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z19",
+      "kind": "complex_richardson_extrapolated",
+      "re": "4.008917862612833811174911",
+      "im": "6.703700205095626026954317",
+      "abs_u": 7.810955054855673,
+      "arg_deg": 59.11991440643994,
+      "richardson_residual_estimate": 4.697553319014345e-08,
+      "bias_vs_raw_u_cat": 2.346112540991933e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z39",
+      "kind": "complex_richardson_extrapolated",
+      "re": "6.248460563065688043032956",
+      "im": "5.67887010470932688071926",
+      "abs_u": 8.44350786547561,
+      "arg_deg": 42.265913432501854,
+      "richardson_residual_estimate": 5.8925779316822007e-08,
+      "bias_vs_raw_u_cat": 2.8132789929184104e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z40",
+      "kind": "complex_richardson_extrapolated",
+      "re": "8.36816136092464865080743",
+      "im": "3.421592955735040592381121",
+      "abs_u": 9.040653898762407,
+      "arg_deg": 22.23878338586705,
+      "richardson_residual_estimate": 6.971485808374848e-08,
+      "bias_vs_raw_u_cat": 3.230408270995991e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z57",
+      "kind": "complex_richardson_extrapolated",
+      "re": "8.589373547299755361826285",
+      "im": "3.974561381725162371592621",
+      "abs_u": 9.46437933052949,
+      "arg_deg": 24.83139934903574,
+      "richardson_residual_estimate": 7.352783650457677e-08,
+      "bias_vs_raw_u_cat": 3.4823215009632537e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z63",
+      "kind": "complex_richardson_extrapolated",
+      "re": "6.831094965434198952437996",
+      "im": "5.231141801680472676822555",
+      "abs_u": 8.603993431893663,
+      "arg_deg": 37.444306966347845,
+      "richardson_residual_estimate": 6.207664819375222e-08,
+      "bias_vs_raw_u_cat": 2.922871597791705e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z70",
+      "kind": "complex_richardson_extrapolated",
+      "re": "7.338950796413052660025777",
+      "im": "6.505401964658702643185464",
+      "abs_u": 9.807163377549957,
+      "arg_deg": 41.554461855582296,
+      "richardson_residual_estimate": 7.949184405349708e-08,
+      "bias_vs_raw_u_cat": 3.7959541140752116e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z74",
+      "kind": "complex_richardson_extrapolated",
+      "re": "4.727275320349135318312579",
+      "im": "8.686310810845505088237729",
+      "abs_u": 9.889344136847171,
+      "arg_deg": 61.44402629701557,
+      "richardson_residual_estimate": 7.921741157008882e-08,
+      "bias_vs_raw_u_cat": 3.855374563960798e-05,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta); raw results.json u_cat (=m=7 seed) kept only for bias comparison"
+    },
+    {
+      "id": "Z06",
+      "kind": "real_richardson_extrapolated",
+      "re": "15.12218140192521593930256",
+      "im": "0",
+      "abs_u": 15.122181401925216,
+      "arg_deg": 0.0,
+      "richardson_residual_estimate": 1.9075111719503467e-07,
+      "bias_vs_raw_u_cat": 0.0,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta)"
+    },
+    {
+      "id": "Z44",
+      "kind": "real_richardson_extrapolated",
+      "re": "25.14156939717328942708294",
+      "im": "0",
+      "abs_u": 25.14156939717329,
+      "arg_deg": 0.0,
+      "richardson_residual_estimate": 5.315747491801295e-07,
+      "bias_vs_raw_u_cat": 0.0,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta)"
+    },
+    {
+      "id": "Z50",
+      "kind": "real_richardson_extrapolated",
+      "re": "31.1369253900217788687079",
+      "im": "0",
+      "abs_u": 31.13692539002178,
+      "arg_deg": 0.0,
+      "richardson_residual_estimate": 8.047117373069764e-07,
+      "bias_vs_raw_u_cat": 0.0,
+      "source": "Feigenbaum-archive/ideation_sweep1/codex/zero_map.json (m=8,9,10 level trajectories, Richardson-extrapolated to m=inf using precise delta)"
+    },
+    {
+      "id": "Z72_true",
+      "kind": "z72_true_diagnostic_only",
+      "re": "4.791660937911268425586256",
+      "im": "7.177581007211361312933728",
+      "abs_u": 8.63004540306631,
+      "arg_deg": null,
+      "source": "Investigation-1/.../results.json stage3b_z72_corrected (kilo_xcheck-verified true position, article Sec 7.6)",
+      "note": "EXCLUDED from ratio statistics (construction is m=10-circular); qualitative check only"
+    }
+  ]
+}

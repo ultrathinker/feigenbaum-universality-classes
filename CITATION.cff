@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Explicit realisation of the \"parameter - unstable manifold\" correspondence for period-doubling universality classes"
+type: software
+authors:
+  - family-names: Borzenkov
+    given-names: Yevhen
+    orcid: "https://orcid.org/0009-0002-7946-589X"
+version: "0.7.4"
+date-released: "2026-11-15"
+license: MIT
+repository-code: "https://github.com/ultrathinker/feigenbaum-universality-classes"
+keywords:
+  - Feigenbaum
+  - universality classes
+  - period doubling
+  - renormalization
+  - computer-assisted proof
+  - interval arithmetic

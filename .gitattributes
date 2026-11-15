@@ -1,0 +1,3 @@
+# Store every file byte-for-byte: the package is verified by sha256 (MANIFEST.sha256),
+# so git must never convert line endings.
+* -text

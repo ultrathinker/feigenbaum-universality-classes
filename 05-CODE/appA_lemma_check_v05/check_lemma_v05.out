@@ -1,0 +1,29 @@
+=== (i) INTEGER EVEN dk ===
+d=2.0 k=1 (dk=2)  max|Phi|=1.030e+00  max|DTPhi-lam Phi|=1.265e-30  rel=1.228e-30
+d=2.0 k=2 (dk=4)  max|Phi|=1.783e+00  max|DTPhi-lam Phi|=1.106e-30  rel=6.204e-31
+d=2.0 k=3 (dk=6)  max|Phi|=2.666e+00  max|DTPhi-lam Phi|=9.978e-31  rel=3.742e-31
+d=4.0 k=1 (dk=4)  max|Phi|=1.933e+00  max|DTPhi-lam Phi|=2.096e-29  rel=1.084e-29
+d=4.0 k=2 (dk=8)  max|Phi|=2.835e+00  max|DTPhi-lam Phi|=2.043e-29  rel=7.204e-30
+d=4.0 k=3 (dk=12)  max|Phi|=4.351e+00  max|DTPhi-lam Phi|=1.976e-29  rel=4.541e-30
+d=6.0 k=1 (dk=6)  max|Phi|=2.909e+00  max|DTPhi-lam Phi|=5.293e-20  rel=1.819e-20
+d=6.0 k=2 (dk=12)  max|Phi|=4.036e+00  max|DTPhi-lam Phi|=5.926e-20  rel=1.468e-20
+d=6.0 k=3 (dk=18)  max|Phi|=5.492e+00  max|DTPhi-lam Phi|=6.002e-20  rel=1.093e-20
+
+=== (ii) ODD BRANCH [G]^{dk+1} for FRACTIONAL dk ===
+d=2.5 k=1 (dk=2.5)  odd-branch  max|Phi|=1.259e+00  max|DTPhi-lam Phi|=2.120e-30  rel=1.684e-30
+d=2.05 k=1 (dk=2.05)  odd-branch  max|Phi|=1.054e+00  max|DTPhi-lam Phi|=6.981e-31  rel=6.626e-31
+d=3.0 k=1 (dk=3)  odd-branch  max|Phi|=1.482e+00  max|DTPhi-lam Phi|=7.970e-30  rel=5.376e-30
+d=5.0 k=1 (dk=5)  odd-branch  max|Phi|=2.406e+00  max|DTPhi-lam Phi|=7.447e-24  rel=3.095e-24
+
+=== (iii) x-REPRESENTATION: Phi_k(t=|x|^d) vs w_k o g - g' w_k ===
+d=2.0 k=1  max|phi_x|=1.030e+00  max|phi_x-Phi_t|=4.592e-41  rel=4.456e-41
+d=2.0 k=2  max|phi_x|=1.359e+00  max|phi_x-Phi_t|=6.888e-41  rel=5.070e-41
+d=4.0 k=1  max|phi_x|=1.933e+00  max|phi_x-Phi_t|=9.184e-41  rel=4.751e-41
+d=4.0 k=2  max|phi_x|=2.587e+00  max|phi_x-Phi_t|=1.378e-40  rel=5.324e-41
+d=6.0 k=1  max|phi_x|=2.908e+00  max|phi_x-Phi_t|=9.184e-41  rel=3.158e-41
+d=6.0 k=2  max|phi_x|=4.036e+00  max|phi_x-Phi_t|=1.378e-40  rel=3.413e-41
+
+=== (iv) g'(1) = -alpha^{d-1} ===
+d=2.0  g'(1)=-2.502907875096  -alpha^(d-1)=-2.502907875096  diff=0.000e+00
+d=4.0  g'(1)=-4.829405415303  -alpha^(d-1)=-4.829405415303  diff=0.000e+00
+d=6.0  g'(1)=-6.811602179884  -alpha^(d-1)=-6.811602179884  diff=0.000e+00

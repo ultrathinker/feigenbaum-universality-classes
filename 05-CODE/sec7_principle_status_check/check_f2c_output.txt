@@ -1,0 +1,24 @@
+=== Independent F2(c) re-check: multiplicity, linear vs nonlinear H_m(u) on real axis ===
+(own numpy float64 implementation, vectorized sign-crossing count; modest m for float64 stability)
+
+d=6  m=5  u in [-15,15]:  nonlinear real zeros=2   linear(1st-order-in-s) real zeros=2
+     linear zero(s) at u ~ ['-8.462175', '-0.910275']
+     nonlinear zero(s) at u ~ ['-1.0000', '4.6694']
+d=6  m=6  u in [-15,15]:  nonlinear real zeros=2   linear(1st-order-in-s) real zeros=2
+     linear zero(s) at u ~ ['-8.462025', '-0.910275']
+     nonlinear zero(s) at u ~ ['-1.0000', '4.6694']
+d=6  m=7  u in [-15,15]:  nonlinear real zeros=2   linear(1st-order-in-s) real zeros=2
+     linear zero(s) at u ~ ['-8.462025', '-0.910275']
+     nonlinear zero(s) at u ~ ['-1.0000', '4.6694']
+
+d=4  m=5  u in [-15,15]:  nonlinear real zeros=2   linear(1st-order-in-s) real zeros=2
+     linear zero(s) at u ~ ['-6.107775', '-0.838425']
+     nonlinear zero(s) at u ~ ['-1.0000', '4.8215']
+d=4  m=6  u in [-15,15]:  nonlinear real zeros=2   linear(1st-order-in-s) real zeros=2
+     linear zero(s) at u ~ ['-6.107475', '-0.838425']
+     nonlinear zero(s) at u ~ ['-1.0000', '4.8215']
+d=4  m=7  u in [-15,15]:  nonlinear real zeros=2   linear(1st-order-in-s) real zeros=2
+     linear zero(s) at u ~ ['-6.107475', '-0.838425']
+     nonlinear zero(s) at u ~ ['-1.0000', '4.8215']
+
+done check_f2c.py

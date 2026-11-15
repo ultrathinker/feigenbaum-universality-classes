@@ -1,0 +1,12 @@
+=== d6 m=8: ===
+d6 m=8: H^{lin}_m real-axis zeros=0 (true catalog real-axis zeros<=u=167006936: 8); single linearized zero u^{lin}=-0.910264\r\n   u^{lin}(8)=-0.910264 ; dist to nearest true level8 zero = 8.974e-02\r\nd6 m=9: H^{lin}_m real-axis zeros=0 (true catalog real-axis zeros<=u=1552537704: 8); single linearized zero u^{lin}=-0.910264\r\n   u^{lin}(9)=-0.910264 ; dist to nearest true level9 zero = 8.974e-0
+
+=== d6 m=9: ===
+d6 m=9: H^{lin}_m real-axis zeros=0 (true catalog real-axis zeros<=u=1552537704: 8); single linearized zero u^{lin}=-0.910264\r\n   u^{lin}(9)=-0.910264 ; dist to nearest true level9 zero = 8.974e-02\r\nd4 m=8: H^{lin}_m real-axis zeros=0 (true catalog real-axis zeros<=u=26052869: 3); single linearized zero u^{lin}=-0.838392\r\n   u^{lin}(8)=-0.838392 ; dist to nearest true level8 zero = 1.616e-01
+
+=== d4 m=8: ===
+d4 m=8: H^{lin}_m real-axis zeros=0 (true catalog real-axis zeros<=u=26052869: 3); single linearized zero u^{lin}=-0.838392\r\n   u^{lin}(8)=-0.838392 ; dist to nearest true level8 zero = 1.616e-01\r\nd4 m=9: H^{lin}_m real-axis zeros=0 (true catalog real-axis zeros<=u=189786974: 3); single linearized zero u^{lin}=-0.838392\r\n   u^{lin}(9)=-0.838392 ; dist to nearest true level9 zero = 1.616e-01\
+
+=== d4 m=9: ===
+d4 m=9: H^{lin}_m real-axis zeros=0 (true catalog real-axis zeros<=u=189786974: 3); single linearized zero u^{lin}=-0.838392\r\n   u^{lin}(9)=-0.838392 ; dist to nearest true level9 zero = 1.616e-01\r\n\r\ndone\r\n","metadata":{"output":"d6 m=8: H^{lin}_m real-axis zeros=0 (true catalog real-axis zeros<=u=167006936: 8); single linearized zero u^{lin}=-0.910264\r\n   u^{lin}(8)=-0.910264 ; dist to 
+

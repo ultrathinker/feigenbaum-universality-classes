@@ -1,0 +1,9 @@
+{
+  "d": 6.0,
+  "alpha": "1.46774245031990094445383431511",
+  "checks": {
+    "fp_residual_max": "4.349728706e-30",
+    "DT_formula_diff_matrix_vs_functional": "4.276423536e-50",
+    "coord_mode_K_DT_over_K_residual": "2.12372508e-30"
+  }
+}

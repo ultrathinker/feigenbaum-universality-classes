@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "tag": "F5 d=8 prediction and computation",
+  "N_pair": [
+   28,
+   40,
+   48
+  ],
+  "created": "2026-08-15 18:47:41"
+ },
+ "prediction": {
+  "est_alpha_8": 1.35,
+  "est_tower1_8": 0.09064207773368703,
+  "predicted_n_gt": 8,
+  "n_gt_trend": "d=4:3, d=5:5, d=6:5, d=7:7 (avg Δ=+1.33/d, +1 at d=8)",
+  "reasoning": "d=4 -> 3 essentials above tower1; d=5 -> 5; d=6 -> 5; d=7 -> 7. Predicted n_>(d=8) = 8."
+ },
+ "points": [
+  {
+   "d": "8.0",
+   "alpha": "1.358017279138050345487376",
+   "tower1": 0.08644853405611026,
+   "tower1_str": "0.0864485340561102618",
+   "n_stable": 7,
+   "n_essential": 6,
+   "n_tower": 1,
+   "n_gt_with_delta": 6,
+   "n_gt_essential": 6,
+   "tower1_position_essential": 1,
+   "tower1_position_no_delta": 1,
+   "essentials": [
+    "-0.40617372393628219",
+    "0.275446127163221061",
+    "-0.254095508051430718",
+    "-0.201100184613817362",
+    "0.157655033619081369",
+    "-0.118406994118896572"
+   ],
+   "towers": [
+    {
+     "lam": "0.0864485339127285769",
+     "k_d": 1,
+     "k_2": null
+    }
+   ],
+   "fp_dense_resid": 5.098013599990789e-29,
+   "newton_iters": 1,
+   "elapsed_s": 9.5
+  },
+  {
+   "d": "7.5",
+   "alpha": "1.38002058730708349692123",
+   "tower1": 0.08930139850497898,
+   "tower1_str": "0.089301398504978978",
+   "n_stable": 8,
+   "n_essential": 8,
+   "n_tower": 0,
+   "n_gt_with_delta": 7,
+   "n_gt_essential": 7,
+   "tower1_position_essential": 1,
+   "tower1_position_no_delta": 1,
+   "essentials": [
+    "0.416202733741475441",
+    "-0.391612576001815726",
+    "0.259963252546468615",
+    "-0.243260476279264996",
+    "-0.188972520566763382",
+    "0.143600304125787597",
+    "-0.106064353608802115",
+    "0.0760809912067812659"
+   ],
+   "towers": [],
+   "fp_dense_resid": 3.9837475713661096e-29,
+   "newton_iters": 1,
+   "elapsed_s": 11.0
+  }
+ ]
+}

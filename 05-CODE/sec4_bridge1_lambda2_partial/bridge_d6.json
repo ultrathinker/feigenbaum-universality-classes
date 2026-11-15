@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "d": 6,
+    "targets": [
+      16,
+      24
+    ],
+    "dps": 150,
+    "seed_path": "../agentB_deg6/sextic_fixedpoint.json",
+    "method": "bridge: collocation fixed point + eigenpair (Phi,lambda) + normalization Phi(1)=1, chained Krawczyk K1(fixed pt)->K2(eigen), python-flint arb balls; independent verifier = preconditioned interval Gauss-Seidel (Hansen-Sengupta), different code path/criterion",
+    "started": "2026-08-15 11:41:45",
+    "finished": "2026-08-15 11:42:04",
+    "total_elapsed_sec": 19.423261642456055
+  },
+  "results": {
+    "16": {
+      "N": 16,
+      "d": 6,
+      "alpha_mid": "1.467742450319436467084591226777524886597",
+      "alpha_cert_halfwidth": 1.0721760474602423e-86,
+      "alpha_box_r_used": "1e-45",
+      "k1_contained": true,
+      "gs1_contained": true,
+      "lambda2_mid": "0.3710714456698545464271087878424296827932",
+      "lambda2_cert_halfwidth": 7.287314593400354e-40,
+      "lambda2_box_r_used": "1e-30",
+      "k2_contained": true,
+      "gs2_contained": true,
+      "newton_resid_fp": 8.401074999623913e-151,
+      "newton_resid_eig": 4.5287367934006984e-91,
+      "dense_resid_fp": 2.3373743311826982e-14,
+      "dense_resid_eig": 5.1777503857340833e-11,
+      "anchor_alpha_diff": 4.644773692430884e-13,
+      "anchor_lambda2_diff": 2.2012075586043875e-08,
+      "elapsed_sec": 1.861846685409546
+    },
+    "24": {
+      "N": 24,
+      "d": 6,
+      "alpha_mid": "1.467742450319900944611379121797931699229",
+      "alpha_cert_halfwidth": 4.695925555781978e-86,
+      "alpha_box_r_used": "1e-45",
+      "k1_contained": true,
+      "gs1_contained": true,
+      "lambda2_mid": "0.3710714676819543805370186098950671674621",
+      "lambda2_cert_halfwidth": 3.527544295030253e-36,
+      "lambda2_box_r_used": "1e-20",
+      "k2_contained": true,
+      "gs2_contained": true,
+      "newton_resid_fp": 1.360907656273607e-114,
+      "newton_resid_eig": 2.353733001315086e-149,
+      "dense_resid_fp": 7.268980756399147e-21,
+      "dense_resid_eig": 2.3534936799107842e-17,
+      "anchor_alpha_diff": 1.5754480668895796e-19,
+      "anchor_lambda2_diff": 2.4248066035209896e-14,
+      "elapsed_sec": 9.319471597671509
+    }
+  },
+  "cross_N_stability": {
+    "N_lo": 16,
+    "N_hi": 24,
+    "diff": 2.201209983410991e-08,
+    "combined_halfwidth": 3.528273026489593e-36,
+    "balls_overlap": false
+  }
+}

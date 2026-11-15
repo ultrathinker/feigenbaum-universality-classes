@@ -1,0 +1,239 @@
+{
+ "tag": "[oid:twotermC] NOT RIGOROUS",
+ "meta": {
+  "mp_dps": 140,
+  "full_m_range": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "tail_m_range": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "lambda2_4": "0.29183840898354510453",
+  "lambda3_4": "0.25566455847429740633",
+  "alpha4": "1.69030297140524485334378",
+  "coord_mode_1_over_alpha4": "0.5916099166344381501396244",
+  "lambda2sq": "0.08516965695804693997181855"
+ },
+ "cascade_verification": {
+  "15": {
+   "period": 32768,
+   "a_mine": "1.59490135622825440893241718354931331431985491055440130115639",
+   "a_pilot": "1.59490135622825440893241718354931331431985491",
+   "abs_diff": "5.544013012e-46",
+   "exact_period_ok": true,
+   "newton_steps": 5,
+   "final_abs_x": "6.060085525e-132",
+   "elapsed_sec": 1.8080925941467285
+  },
+  "16": {
+   "period": 65536,
+   "a_mine": "1.59490135622874284590459905531219678376720543030294492027465",
+   "a_pilot": "1.59490135622874284590459905531219678376720543",
+   "abs_diff": "3.029449203e-46",
+   "exact_period_ok": true,
+   "newton_steps": 4,
+   "final_abs_x": "1.512131409e-131",
+   "elapsed_sec": 3.1560444831848145
+  },
+  "17": {
+   "period": 131072,
+   "a_mine": "1.5949013562288098957344951392598290411093112951613901117181",
+   "a_pilot": "1.5949013562288098957344951392598290411093113",
+   "abs_diff": "4.838609888e-45",
+   "exact_period_ok": true,
+   "newton_steps": 4,
+   "final_abs_x": "9.187660919e-131",
+   "elapsed_sec": 6.093224048614502
+  }
+ },
+ "rows": {
+  "7": {
+   "m": 7,
+   "cascade_k": 8,
+   "a_k": "1.59490073989691468352317902020378984232084695",
+   "e4_m": "-0.00000673091142049774730801612984116099334396156496420875990107909"
+  },
+  "8": {
+   "m": 8,
+   "cascade_k": 9,
+   "a_k": "1.59490127162270653630814263450188629164894387",
+   "e4_m": "-0.00000200430345833643981130698757420882616147937562206678909569956"
+  },
+  "9": {
+   "m": 9,
+   "cascade_k": 10,
+   "a_k": "1.59490134461459431462826407121272541690364188",
+   "e4_m": "-0.000000584263835697279801876255845869326851266488961606098029605273"
+  },
+  "10": {
+   "m": 10,
+   "cascade_k": 11,
+   "a_k": "1.59490135463448676465410202154879139711014268",
+   "e4_m": "-0.000000171602976140950925783982795460033856127191747142642286475699"
+  },
+  "11": {
+   "m": 11,
+   "cascade_k": 12,
+   "a_k": "1.59490135600995957885066635487065253096879188",
+   "e4_m": "-0.0000000497685281320589609858494703557471198606101802396870624821712"
+  },
+  "12": {
+   "m": 12,
+   "cascade_k": 13,
+   "a_k": "1.59490135619877658300217399166837026874571856",
+   "e4_m": "-0.0000000144047602235612354987001591046497596532347953892443655091674"
+  },
+  "13": {
+   "m": 13,
+   "cascade_k": 14,
+   "a_k": "1.59490135622469629884131033480989510210785175",
+   "e4_m": "-0.00000000401814650439216025223898706442249078317422922734810365498397"
+  },
+  "14": {
+   "m": 14,
+   "cascade_k": 15,
+   "a_k": "1.59490135622825440893241718354931331431985491055440130115639",
+   "e4_m": "-0.00000000100318023374111361984415260295276744148460515156686719331186"
+  },
+  "15": {
+   "m": 15,
+   "cascade_k": 16,
+   "a_k": "1.59490135622874284590459905531219678376720543030294492027465",
+   "e4_m": "-0.000000000137710836657580284048889193533654485790359893550543763665089"
+  },
+  "16": {
+   "m": 16,
+   "cascade_k": 17,
+   "a_k": "1.5949013562288098957344951392598290411093112951613901117181",
+   "e4_m": "-0.0000000000189041549016652435077676740277067302545462211745777292932752"
+  }
+ },
+ "ratio_table": {
+  "7": "3.35822970942951",
+  "8": "3.4304766714586",
+  "9": "3.40474185725881",
+  "10": "3.44802192432954",
+  "11": "3.45500566199323",
+  "12": "3.58492658438802",
+  "13": "4.00540836954838",
+  "14": "7.28468621707334",
+  "15": "7.28468621707334"
+ },
+ "tail_model_selection": {
+  "M0L_tail": {
+   "D": "0.028908359600381816709",
+   "loocv_rms_rel_err": "1.50557352533713",
+   "loocv_median_rel_err": "0.280363338444232"
+  },
+  "a_delta4": {
+   "description": "-C*delta4^(-m) [original min-rule subordinate]",
+   "D": "0.026741995487339111423",
+   "second_term_amplitude": "5505682.1682272022458",
+   "second_term_sign": "+",
+   "loocv_rms_rel_err": "1.71351476129957",
+   "loocv_median_rel_err": "0.342761962384135",
+   "beats_M0L": false,
+   "improvement_ratio_M0L_over_this": "0.8786463702"
+  },
+  "b_lambda3": {
+   "description": "-C3*lambda3(4)^m",
+   "D": "0.025977112592185884505",
+   "second_term_amplitude": "12801.029069680180608",
+   "second_term_sign": "+",
+   "loocv_rms_rel_err": "1.48003497721184",
+   "loocv_median_rel_err": "0.34059183915755",
+   "beats_M0L": true,
+   "improvement_ratio_M0L_over_this": "1.017255368"
+  },
+  "c_coordmode": {
+   "description": "-E*(1/alpha4)^m [coordinate mode, grows vs lambda2 as m up]",
+   "D": "0.020610822583890024478",
+   "second_term_amplitude": "4.6336829759938291922",
+   "second_term_sign": "+",
+   "loocv_rms_rel_err": "1.19533120569112",
+   "loocv_median_rel_err": "0.34709828700842",
+   "beats_M0L": true,
+   "improvement_ratio_M0L_over_this": "1.259545068"
+  },
+  "d_lambda2sq": {
+   "description": "-F*(lambda2(4)^2)^m",
+   "D": "0.026998830419330217045",
+   "second_term_amplitude": "608857884.42999099476",
+   "second_term_sign": "+",
+   "loocv_rms_rel_err": "2.09390433350827",
+   "loocv_median_rel_err": "0.339798790158777",
+   "beats_M0L": false,
+   "improvement_ratio_M0L_over_this": "0.7190268921"
+  }
+ },
+ "best_tail_candidate": {
+  "key": "c_coordmode",
+  "loocv_rms_rel_err": "1.19533120569112",
+  "beats_M0L_baseline": true
+ },
+ "sanity_delta4_negligible_at_m13": {
+  "C_ref": "0.4243",
+  "C_ref_times_delta4_pow_minus13": "2.608146532e-12",
+  "fraction_of_e4_13": "0.00064909195"
+ },
+ "CRITICAL_circularity_finding": {
+  "issue": "a_F in mside_cascade.json = cF_rich[K_MAX=17], algebraically dependent on cascade[15],[16],[17] via the Richardson chain cF_seq[17]=f(cascade[17],cascade[16]), cF_seq[16]=f(cascade[16],cascade[15]). Therefore e4(14) [k=15], e4(15) [k=16], e4(16) [k=17] compute (cascade[k]-a_F) where a_F was built FROM that same cascade[k] -- CIRCULAR, analogous to agent A REPORT_LAMBDA2_DEG2.md section 3.3 Z72 exclusion.",
+  "consequence": "the exact-delta4 ratio observed at m=14/15 and m=15/16 in the first p3c run is a Richardson-recursion residual artifact, NOT evidence of a physical delta4-vs-lambda2 crossover. m=14,15,16 are EXCLUDED from any independent model-selection conclusion.",
+  "valid_range": "m=7..13 (k=8..14) remain valid -- a_F formula does not directly involve cascade[8..14]."
+ },
+ "tail_model_selection_NONCIRCULAR_m10to13": {
+  "m_range": [
+   10,
+   11,
+   12,
+   13
+  ],
+  "note": "ONLY 4 points -- LOOCV trains on 3 points per fold, extremely thin; result is suggestive at best, not decisive",
+  "M0L_baseline": {
+   "D": "0.037539019807850639831",
+   "loocv_rms_rel_err": "0.0316218051072765"
+  },
+  "candidates": {
+   "a_delta4": {
+    "D": "0.0371903235139055405",
+    "X": "506573.90637370192347",
+    "loocv_rms_rel_err": "0.11698922772311",
+    "beats_M0L": false
+   },
+   "b_lambda3": {
+    "D": "0.037070414127772248411",
+    "X": "1174.3308117916790016",
+    "loocv_rms_rel_err": "0.067840555599124",
+    "beats_M0L": false
+   },
+   "c_coordmode": {
+    "D": "0.036315288488464277968",
+    "X": "0.43373100952409845788",
+    "loocv_rms_rel_err": "0.0364663546223819",
+    "beats_M0L": false
+   },
+   "d_lambda2sq": {
+    "D": "0.037231827335870887327",
+    "X": "55973825.98048320418",
+    "loocv_rms_rel_err": "0.183000085375626",
+    "beats_M0L": false
+   }
+  },
+  "best_candidate": "c_coordmode"
+ }
+}

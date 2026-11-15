@@ -1,0 +1,31 @@
+=== Decisive ratio test: lambda2^m vs (lambda2/delta)^m ===
+
+[d6] rate_study n=13
+  median ratio d(8)/d(9)  = 2.5557
+  median ratio d(9)/d(10) = 2.8298
+  claim 1/|lam2|          = 2.6949  (lam2^m hypothesis)
+  claim delta/|lam2|      = 25.0524  ((lam2/delta)^m hypothesis, brief naive)
+  |r910 - 1/lam2| = 0.1349   |r910 - delta/lam2| = 22.2226
+  -> lambda2^m WINS (by ~164.7x margin)
+
+[d4] rate_study n=13
+  median ratio d(8)/d(9)  = 2.4009
+  median ratio d(9)/d(10) = 4.9087
+  claim 1/|lam2|          = 3.4266  (lam2^m hypothesis)
+  claim delta/|lam2|      = 24.9614  ((lam2/delta)^m hypothesis, brief naive)
+  |r910 - 1/lam2| = 1.4821   |r910 - delta/lam2| = 20.0527
+  -> lambda2^m WINS (by ~13.5x margin)
+
+=== rate_full (d=6, 9 late zeros, levels up to 12) ===
+  S036   levels=['7', '8', '9', '10', '11', '12'] ratios=['0.910', '0.492', '1.649', '0.981', '101.993']
+  S104   levels=['7', '8', '9', '10', '11', '12'] ratios=['0.062', '0.682', '2.021', '39.959', '3.130']
+  S187   levels=['7', '8', '9', '10', '11', '12'] ratios=['0.035', '0.160', '10.572', '341.753', '0.658']
+  S339   levels=['7', '8', '9', '10', '11', '12'] ratios=['0.706', '0.983', '1.085', '479.025', '1.677']
+  S031   levels=['7', '8', '9', '10', '11'] ratios=['0.401', '0.038', '47.045', '2.666']
+  S070   levels=['7', '8', '9', '10', '11'] ratios=['4.539', '0.785', '532.494', '1.844']
+  S235   levels=['7', '8', '9', '10', '11'] ratios=['0.005', '37.558', '90.018', '2.692']
+  S279   levels=['7', '8', '9', '10', '11'] ratios=['0.092', '0.013', '93.980', '2.469']
+  S319   levels=['7', '8', '9', '10', '11'] ratios=['0.566', '0.311', '56.384', '2.947']
+  median all consecutive-level ratios = 1.6626  (1/|lam2|=2.6949, delta/|lam2|=25.0524)
+
+done check_rate.py

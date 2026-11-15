@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "date": "2026-08-16 02:33:51",
+    "ids": [
+      "S031",
+      "S036",
+      "S070",
+      "S104",
+      "S187",
+      "S235",
+      "S279",
+      "S319",
+      "S339"
+    ],
+    "note": "all 9 have accepted=False in match_results.json (rejected by the standard m=7/8 float pipeline; certified only later via a SEPARATE rigorous interval-Krawczyk re-open at m=10-12, per 03-APPENDIX-B-DATA SS B.2.3) -- they are present in H6_zeros_ORIG.json (342) but were NOT discovered by the plain grid-scan+Newton route this whole R1/R1B forensic exercise audits."
+  },
+  "n_found_by_step24": 0,
+  "rows": [
+    {
+      "id": "S031",
+      "u_cat_re": 0.9999703487338925,
+      "u_cat_im": 14.499808783656217,
+      "accepted_in_match_results": false,
+      "orig_match_dist": 5.280082151504217e-07,
+      "orig_idx": 30,
+      "orig_re": 0.9999708767421076,
+      "orig_im": 14.499808710480664,
+      "dist_to_1_16_node": {
+        "re_frac_of_step": 0.0004659721262783023,
+        "im_frac_of_step": 0.0030606323093707033,
+        "abs_dist": 0.00019349378377079237
+      },
+      "step24_nearest_dist": 0.3840487758923228,
+      "found_by_step24_at_1e-4": false
+    },
+    {
+      "id": "S036",
+      "u_cat_re": 3.624970751609482,
+      "u_cat_im": 16.1250264266056,
+      "accepted_in_match_results": false,
+      "orig_match_dist": 6.2296777469939e-07,
+      "orig_idx": 35,
+      "orig_re": 3.6249713745772567,
+      "orig_im": 16.12502613160592,
+      "dist_to_1_16_node": {
+        "re_frac_of_step": 0.0004580067638926266,
+        "im_frac_of_step": 0.0004181056947345496,
+        "abs_dist": 3.8759200910722107e-05
+      },
+      "step24_nearest_dist": 0.008282326293109321,
+      "found_by_step24_at_1e-4": false
+    },
+    {
+      "id": "S070",
+      "u_cat_re": 9.375029256008995,
+      "u_cat_im": 20.374895596546203,
+      "accepted_in_match_results": false,
+      "orig_match_dist": 9.640168414648542e-07,
+      "orig_idx": 69,
+      "orig_re": 9.37503008178046,
+      "orig_im": 20.37489463252936,
+      "dist_to_1_16_node": {
+        "re_frac_of_step": 0.00048130848736605003,
+        "im_frac_of_step": 0.0016858795302141516,
+        "abs_dist": 0.00010957744925119036
+      },
+      "step24_nearest_dist": 0.8803503887934845,
+      "found_by_step24_at_1e-4": false
+    },
+    {
+      "id": "S104",
+      "u_cat_re": 20.12501349813386,
+      "u_cat_im": 19.250015180422945,
+      "accepted_in_match_results": false,
+      "orig_match_dist": 1.9551669474537903e-06,
+      "orig_idx": 103,
+      "orig_re": 20.12501341119483,
+      "orig_im": 19.250013225255998,
+      "dist_to_1_16_node": {
+        "re_frac_of_step": 0.00021457911725519807,
+        "im_frac_of_step": 0.00021160409596632235,
+        "abs_dist": 1.8835273901286978e-05
+      },
+      "step24_nearest_dist": 0.5055611526346695,
+      "found_by_step24_at_1e-4": false
+    },
+    {
+      "id": "S187",
+      "u_cat_re": 17.312457918937184,
+      "u_cat_im": 30.93748545809402,
+      "accepted_in_match_results": false,
+      "orig_match_dist": 2.703088959776778e-06,
+      "orig_idx": 186,
+      "orig_re": 17.312459577839366,
+      "orig_im": 30.93748275500506,
+      "dist_to_1_16_node": {
+        "re_frac_of_step": 0.0006467545701411836,
+        "im_frac_of_step": 0.0002759199190336403,
+        "abs_dist": 4.394702402636139e-05
+      },
+      "step24_nearest_dist": 1.1374669618714712,
+      "found_by_step24_at_1e-4": false
+    },
+    {
+      "id": "S235",
+      "u_cat_re": 31.937447775740463,
+      "u_cat_im": 21.875169836108423,
+      "accepted_in_match_results": false,
+      "orig_match_dist": 3.525885670541129e-06,
+      "orig_idx": 234,
+      "orig_re": 31.937446409374505,
+      "orig_im": 21.875166310222752,
+      "dist_to_1_16_node": {
+        "re_frac_of_step": 0.000857450007913485,
+        "im_frac_of_step": 0.0026609635640397755,
+        "abs_dist": 0.00017473135188878728
+      },
+      "step24_nearest_dist": 0.47225248426087774,
+      "found_by_step24_at_1e-4": false
+    },
+    {
+      "id": "S279",
+      "u_cat_re": 41.31287060992847,
+      "u_cat_im": 10.000232283665849,
+      "accepted_in_match_results": false,
+      "orig_match_dist": 4.054474089798532e-06,
+      "orig_idx": 278,
+      "orig_re": 41.31286655545438,
+      "orig_im": 10.00023019863712,
+      "dist_to_1_16_node": {
+        "re_frac_of_step": 0.005864887270035979,
+        "im_frac_of_step": 0.003683178193909953,
+        "abs_dist": 0.00043284444511316946
+      },
+      "step24_nearest_dist": 0.09079343610844681,
+      "found_by_step24_at_1e-4": false
+    },
+    {
+      "id": "S319",
+      "u_cat_re": -6.500027910825352,
+      "u_cat_im": 46.937357723289075,
+      "accepted_in_match_results": false,
+      "orig_match_dist": 5.452733568667156e-06,
+      "orig_idx": 318,
+      "orig_re": -6.500022458091784,
+      "orig_im": 46.93735926303978,
+      "dist_to_1_16_node": {
+        "re_frac_of_step": 0.0003593294685373394,
+        "im_frac_of_step": 0.0022517913635056175,
+        "abs_dist": 0.00014251757034931768
+      },
+      "step24_nearest_dist": 0.45215619472891344,
+      "found_by_step24_at_1e-4": false
+    },
+    {
+      "id": "S339",
+      "u_cat_re": 47.187513666531075,
+      "u_cat_im": 23.62502700538954,
+      "accepted_in_match_results": false,
+      "orig_match_dist": 5.626210686671129e-06,
+      "orig_idx": 338,
+      "orig_re": 47.187509456184074,
+      "orig_im": 23.625021379178854,
+      "dist_to_1_16_node": {
+        "re_frac_of_step": 0.00015129894518395304,
+        "im_frac_of_step": 0.0003420668616627154,
+        "abs_dist": 2.3377097888942578e-05
+      },
+      "step24_nearest_dist": 5.966954941852137,
+      "found_by_step24_at_1e-4": false
+    }
+  ]
+}
